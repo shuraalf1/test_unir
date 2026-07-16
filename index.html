@@ -253,1239 +253,1239 @@
 
     <script>
         // BANCO COMPLETO DE PREGUNTAS (80 PREGUNTAS: 40 Verdadero/Falso y 40 Opción Múltiple)
-        const allQuestions = [
-            // ----------------------------------------------------
-            // TEMA 1: Origen y evolución de la IA (1-7)
-            // ----------------------------------------------------
-            {
-                id: 1,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "tf",
-                question: "Howard Gardner formuló originalmente diez tipos de inteligencia en su famosa obra 'Frames of Mind' (1983).",
-                options: ["Verdadero", "Falso"],
-                answer: 0, // Verdadero
-                quote: "Howard Gardner (1983) en su famosa obra Frames of Mind: The Theory of Multiple Intelligences se atrevió a formular diez tipos de inteligencia: Musical, Espacial o visual, Lingüística-verbal, Lógico-matemática, Corporal-cinestésica, Interpersonal, Intrapersonal, Naturalista, Existencial y Otras.",
-                page: "Página 6",
-                section: "1.2. Definición y origen del concepto inteligencia artificial"
-            },
-            {
-                id: 2,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "tf",
-                question: "La regla de Hebb sobre la plasticidad sináptica y el aprendizaje neuronal fue formulada en 1943 por McCulloch y Pitts.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (En 1943 McCulloch y Pitts proponen la unidad de cálculo; la regla de Hebb fue en 1949)
-                quote: "En 1943, McCulloch y Pitts proponen una unidad de cálculo que intenta modelar el comportamiento de una neurona «natural»... En 1949, Donald Hebb formula la regla de Hebb.",
-                page: "Página 13",
-                section: "1.4. Historia de la inteligencia artificial"
-            },
-            {
-                id: 3,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "tf",
-                question: "En 1956 tuvo lugar la Conferencia de Dartmouth, encuentro en el cual se adoptó oficialmente el término «inteligencia artificial».",
-                options: ["Verdadero", "Falso"],
-                answer: 0, // Verdadero
-                quote: "En 1956 tiene lugar la Conferencia de Dartmouth (en el Dartmouth College, Estados Unidos). En este encuentro de muchos de los investigadores más influyentes del momento en el área se adoptó oficialmente el término «inteligencia artificial».",
-                page: "Página 14",
-                section: "1.4. Historia de la inteligencia artificial"
-            },
-            {
-                id: 4,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "mc",
-                question: "¿Cuál de las siguientes inteligencias NO forma parte de las formuladas originalmente por Howard Gardner en 'Frames of Mind' (1983)?",
-                options: [
-                    "Inteligencia Corporal-cinestésica",
-                    "Inteligencia Intrapersonal",
-                    "Inteligencia Lógico-matemática",
-                    "Inteligencia Cuántica-computacional"
-                ],
-                answer: 3,
-                quote: "Howard Gardner (1983) en su famosa obra Frames of Mind: The Theory of Multiple Intelligences se atrevió a formular diez tipos de inteligencia: Musical, Espacial o visual, Lingüística-verbal, Lógico-matemática, Corporal-cinestésica, Interpersonal, Intrapersonal, Naturalista, Existencial y Otras.",
-                page: "Página 6",
-                section: "1.2. Definición y origen del concepto inteligencia artificial"
-            },
-            {
-                id: 5,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "mc",
-                question: "¿Quién diseñó un autómata capaz de jugar al ajedrez de forma autónoma en el año 1912?",
-                options: [
-                    "Arthur Samuel",
-                    "Alan Turing",
-                    "Leonardo Torres Quevedo",
-                    "Warren McCulloch"
-                ],
-                answer: 2,
-                quote: "En 1912, el genio español Leonardo Torres Quevedo (llegó a diseñar el funicular del Niágara) creó una máquina autónoma capaz de jugar al ajedrez.",
-                page: "Página 12",
-                section: "1.4. Historia de la inteligencia artificial"
-            },
-            {
-                id: 6,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "mc",
-                question: "¿Qué chatbot representativo de los primeros sistemas basados en el conocimiento fue desarrollado en el MIT en 1965?",
-                options: [
-                    "Siri",
-                    "Eliza",
-                    "Alexa",
-                    "Tay"
-                ],
-                answer: 1,
-                quote: "En 1965 Robinson propone un algoritmo capaz de aplicar criterios de razonamiento lógico. Al mismo tiempo, aparece en el MIT el primer chatbot denominado Eliza.",
-                page: "Página 14",
-                section: "1.4. Historia de la inteligencia artificial"
-            },
-            {
-                id: 7,
-                topic: "Tema 1",
-                topicNum: 1,
-                type: "mc",
-                question: "En la historia de la Inteligencia Artificial, ¿cuál de los siguientes hitos y años está relacionado de forma CORRECTA?",
-                options: [
-                    "1997 - Deep Blue de IBM derrota a Gary Kasparov.",
-                    "2011 - AlphaGo derrota al campeón mundial de Go.",
-                    "2019 - Watson gana en el conocido concurso de televisión Jeopardy.",
-                    "1950 - Arthur Samuel propone la unidad de cálculo neuronal artificial."
-                ],
-                answer: 0,
-                quote: "En 1997 el ordenador de IBM (Deep Blue) derrota a Gary Kasparov... En el año 2011, el programa de IBM Watson derrota al campeón del conocido juego Jeopardy... En el año 2015, el software desarrollado por Google, DeepMind AlphaGo, derrota al campeón mundial de Go.",
-                page: "Páginas 14-15",
-                section: "1.4. Historia de la inteligencia artificial"
-            },
+       const allQuestions = [
+    // ----------------------------------------------------
+    // TEMA 1: Origen y evolución de la IA (1-7)
+    // ----------------------------------------------------
+    {
+        id: 1,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "tf",
+        question: "Según el temario de la asignatura, Howard Gardner formuló originalmente diez tipos de inteligencia en su famosa obra 'Frames of Mind' (1983).",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Howard Gardner (1983) en su famosa obra Frames of Mind: The Theory of Multiple Intelligences se atrevió a formular diez tipos de inteligencia: Musical, Espacial o visual, Lingüística-verbal, Lógico-matemática, Corporal-cinestésica, Interpersonal, Intrapersonal, Naturalista, Existencial y Otras.",
+        page: "Página 6",
+        section: "1.2. Definición y origen del concepto inteligencia artificial"
+    },
+    {
+        id: 2,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "tf",
+        question: "La regla de Hebb sobre la plasticidad sináptica y el aprendizaje neuronal fue formulada en 1943 por McCulloch y Pitts.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "En 1943, McCulloch y Pitts proponen una unidad de cálculo que intenta modelar el comportamiento de una neurona «natural»... En 1949, Donald Hebb formula la regla de Hebb.",
+        page: "Página 13",
+        section: "1.4. Historia de la inteligencia artificial"
+    },
+    {
+        id: 3,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "tf",
+        question: "En 1956 tuvo lugar la Conferencia de Dartmouth, encuentro en el cual se adoptó oficialmente el término «inteligencia artificial».",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "En 1956 tiene lugar la Conferencia de Dartmouth (en el Dartmouth College, Estados Unidos). En este encuentro de muchos de los investigadores más influyentes del momento en el área se adoptó oficialmente el término «inteligencia artificial».",
+        page: "Página 14",
+        section: "1.4. Historia de la inteligencia artificial"
+    },
+    {
+        id: 4,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "mc",
+        question: "¿Cuál de las siguientes inteligencias NO forma parte de las formuladas originalmente por Howard Gardner en 'Frames of Mind' (1983)?",
+        options: [
+            "Inteligencia Corporal-cinestésica",
+            "Inteligencia Intrapersonal",
+            "Inteligencia Lógico-matemática",
+            "Inteligencia Cuántica-computacional"
+        ],
+        answer: 3,
+        quote: "Howard Gardner (1983) en su famosa obra Frames of Mind: The Theory of Multiple Intelligences se atrevió a formular diez tipos de inteligencia: Musical, Espacial o visual, Lingüística-verbal, Lógico-matemática, Corporal-cinestésica, Interpersonal, Intrapersonal, Naturalista, Existencial y Otras.",
+        page: "Página 6",
+        section: "1.2. Definición y origen del concepto inteligencia artificial"
+    },
+    {
+        id: 5,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "mc",
+        question: "¿Quién diseñó un autómata capaz de jugar al ajedrez de forma autónoma en el año 1912?",
+        options: [
+            "Arthur Samuel",
+            "Alan Turing",
+            "Leonardo Torres Quevedo",
+            "Warren McCulloch"
+        ],
+        answer: 2,
+        quote: "En 1912, el genio español Leonardo Torres Quevedo (llegó a diseñar el funicular del Niágara) creó una máquina autónoma capaz de jugar al ajedrez.",
+        page: "Página 12",
+        section: "1.4. Historia de la inteligencia artificial"
+    },
+    {
+        id: 6,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "mc",
+        question: "¿Qué chatbot representativo de los primeros sistemas basados en el conocimiento fue desarrollado en el MIT en 1965?",
+        options: [
+            "Siri",
+            "Eliza",
+            "Alexa",
+            "Tay"
+        ],
+        answer: 1,
+        quote: "En 1965 Robinson propone un algoritmo capaz de aplicar criterios de razonamiento lógico. Al mismo tiempo, aparece en el MIT el primer chatbot denominado Eliza.",
+        page: "Página 14",
+        section: "1.4. Historia de la inteligencia artificial"
+    },
+    {
+        id: 7,
+        topic: "Tema 1",
+        topicNum: 1,
+        type: "mc",
+        question: "En la historia de la Inteligencia Artificial, ¿cuál de los siguientes hitos y años está relacionado de forma CORRECTA?",
+        options: [
+            "1997 - Deep Blue de IBM derrota a Gary Kasparov.",
+            "2011 - AlphaGo derrota al campeón mundial de Go.",
+            "2019 - Watson gana en el conocido concurso de televisión Jeopardy.",
+            "1950 - Arthur Samuel propone la unidad de cálculo neuronal artificial."
+        ],
+        answer: 0,
+        quote: "En 1997 el ordenador de IBM (Deep Blue) derrota a Gary Kasparov... En el año 2011, el programa de IBM Watson derrota al campeón del conocido juego Jeopardy... En el año 2015, el software desarrollado por Google, DeepMind AlphaGo, derrota al campeón mundial de Go.",
+        page: "Páginas 14-15",
+        section: "1.4. Historia de la inteligencia artificial"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 2: Ciencia y método científico (8-14)
-            // ----------------------------------------------------
-            {
-                id: 8,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "tf",
-                question: "La creencia es radicalmente opuesta al conocimiento, puesto que este último implica la constatación de verdades mediante la experimentación de hipótesis, mientras que las creencias no exigen demostración.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "La creencia es radicalmente opuesta al conocimiento... El conocimiento implica la constatación de verdades mediante la experimentación de hipótesis... Por el contrario, las creencias no implican demostración de ningún tipo.",
-                page: "Página 30",
-                section: "2.2. La ciencia y su método"
-            },
-            {
-                id: 9,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "tf",
-                question: "En el método experimental, la variable dependiente se considera la causa y la variable independiente el efecto temporal de dicha relación.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso
-                quote: "En el método experimental debe existir dos tipos de variables, las variables dependientes que son consecuencia de las independientes... Existe una correlación entre la variable independiente (causa) y la variable dependiente (efecto).",
-                page: "Página 35",
-                section: "2.3. Metodologías de investigación en inteligencia artificial"
-            },
-            {
-                id: 10,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "tf",
-                question: "Un estudio cuasiexperimental difiere del experimental puro en que no es posible realizar una asignación aleatoria de los sujetos en los grupos del experimento.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "El diseño cuasiexperimental también busca establecer una relación de causalidad entre la variable independiente y la dependiente, pero se aplica cuando no es posible la asignación aleatoria de los sujetos en el experimento.",
-                page: "Página 36",
-                section: "2.3. Metodologías de investigación en inteligencia artificial"
-            },
-            {
-                id: 11,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "mc",
-                question: "¿Cuál de los siguientes pasos NO forma parte del esquema general del método científico?",
-                options: [
-                    "Paso 1: Observación",
-                    "Paso 2: Hipótesis",
-                    "Paso 3: Comercialización rápida del software",
-                    "Paso 4: Conclusión"
-                ],
-                answer: 2,
-                quote: "De forma muy básica, el método científico general podría resumirse en los siguientes pasos: Paso 1: Observación... Paso 2: Hipótesis... Paso 3: Experimentación... Paso 4: Conclusión.",
-                page: "Página 31",
-                section: "2.2. La ciencia y su método"
-            },
-            {
-                id: 12,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "mc",
-                question: "¿Qué método lógico busca inferir de casos particulares observados para extraer conclusiones o leyes generales?",
-                options: [
-                    "Método Deductivo",
-                    "Método Inductivo",
-                    "Método Histórico Analítico",
-                    "Método de Inferencia Directa"
-                ],
-                answer: 1,
-                quote: "Sin embargo, el método inductivo intenta inferir de casos particulares para extraer leyes generales... El método inductivo es muy bueno para generar hipótesis.",
-                page: "Página 34",
-                section: "2.3. Metodologías de investigación en inteligencia artificial"
-            },
-            {
-                id: 13,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "mc",
-                question: "¿Cómo se define el metaanálisis en la metodología de la investigación?",
-                options: [
-                    "Un método descriptivo basado exclusivamente en entrevistas personales.",
-                    "Un método para realizar síntesis cuantitativas de investigaciones ya realizadas con el fin de integrar los resultados en un resultado único.",
-                    "Un diseño experimental de laboratorio que utiliza variables exclusivamente continuas.",
-                    "Una técnica para evaluar la interfaz de usuario de sistemas inteligentes."
-                ],
-                answer: 1,
-                quote: "El metaanálisis: es un método para realizar síntesis cuantitativas de lo ya investigado, establecer el estado de la cuestión y llegar, o intentar llegar, a una generalización sobre una hipótesis determinada. Podríamos decir que el metaanálisis es una investigación sobre investigaciones...",
-                page: "Páginas 36-37",
-                section: "2.3. Metodologías de investigación en inteligencia artificial"
-            },
-            {
-                id: 14,
-                topic: "Tema 2",
-                topicNum: 2,
-                type: "mc",
-                question: "¿Cuál de las siguientes es una desventaja típica de la investigación cuantitativa?",
-                options: [
-                    "El investigador pierde excesiva objetividad.",
-                    "El contexto del experimento suele ser ignorado.",
-                    "La información obtenida es demasiado detallada.",
-                    "Es sumamente útil en etapas extremadamente tempranas donde no hay hipótesis estructurada."
-                ],
-                answer: 1,
-                quote: "Ventajas y desventajas de la investigación cuantitativa: Desventajas: 1. El contexto del experimento es ignorado. 2. No estudia los fenómenos en su ambiente natural...",
-                page: "Página 41",
-                section: "2.4. Metodología empírica cuantitativa"
-            },
+    // ----------------------------------------------------
+    // TEMA 2: Ciencia y método científico (8-14)
+    // ----------------------------------------------------
+    {
+        id: 8,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "tf",
+        question: "La creencia es radicalmente opuesta al conocimiento, puesto que este último implica la constatación de verdades mediante la experimentación de hipótesis, mientras que las creencias no exigen demostración.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "La creencia es radicalmente opuesta al conocimiento... El conocimiento implica la constatación de verdades mediante la experimentación de hipótesis... Por el contrario, las creencias no implican demostración de ningún tipo.",
+        page: "Página 30",
+        section: "2.2. La ciencia y su método"
+    },
+    {
+        id: 9,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "tf",
+        question: "En el método experimental, la variable dependiente se considera la causa y la variable independiente el efecto temporal de dicha relación.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "En el método experimental debe existir dos tipos de variables, las variables dependientes que son consecuencia de las independientes... Existe una correlación entre la variable independiente (causa) y la variable dependiente (efecto).",
+        page: "Página 35",
+        section: "2.3. Metodologías de investigación en inteligencia artificial"
+    },
+    {
+        id: 10,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "tf",
+        question: "Un estudio cuasiexperimental difiere del experimental puro en que no es posible realizar una asignación aleatoria de los sujetos en los grupos del experimento.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "El diseño cuasiexperimental también busca establecer una relación de causalidad entre la variable independiente y la dependiente, pero se aplica cuando no es posible la asignación aleatoria de los sujetos en el experimento.",
+        page: "Página 36",
+        section: "2.3. Metodologías de investigación en inteligencia artificial"
+    },
+    {
+        id: 11,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "mc",
+        question: "¿Cuál de los siguientes pasos NO forma parte del esquema general del método científico?",
+        options: [
+            "Paso 1: Observación",
+            "Paso 2: Hipótesis",
+            "Paso 3: Comercialización rápida del software",
+            "Paso 4: Conclusión"
+        ],
+        answer: 2,
+        quote: "De forma muy básica, el método científico general podría resumirse en los siguientes pasos: Paso 1: Observación... Paso 2: Hipótesis... Paso 3: Experimentación... Paso 4: Conclusión.",
+        page: "Página 31",
+        section: "2.2. La ciencia y su método"
+    },
+    {
+        id: 12,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "mc",
+        question: "¿Qué método lógico busca inferir de casos particulares observados para extraer conclusiones o leyes generales?",
+        options: [
+            "Método Deductivo",
+            "Método Inductivo",
+            "Método Histórico Analítico",
+            "Método de Inferencia Directa"
+        ],
+        answer: 1,
+        quote: "Sin embargo, el método inductivo intenta inferir de casos particulares para extraer leyes generales... El método inductivo es muy bueno para generar hipótesis.",
+        page: "Página 34",
+        section: "2.3. Metodologías de investigación en inteligencia artificial"
+    },
+    {
+        id: 13,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "mc",
+        question: "¿Cómo se define el metaanálisis en la metodología de la investigación?",
+        options: [
+            "Un método descriptivo basado exclusivamente en entrevistas personales.",
+            "Un método para realizar síntesis cuantitativas de investigaciones ya realizadas con el fin de integrar los resultados en un resultado único.",
+            "Un diseño experimental de laboratorio que utiliza variables exclusivamente continuas.",
+            "Una técnica para evaluar la interfaz de usuario de sistemas inteligentes."
+        ],
+        answer: 1,
+        quote: "El metaanálisis: es un método para realizar síntesis cuantitativas de lo ya investigado, establecer el estado de la cuestión y llegar, o intentar llegar, a una generalización sobre una hipótesis determinada. Podríamos decir que el metaanálisis es una investigación sobre investigaciones...",
+        page: "Páginas 36-37",
+        section: "2.3. Metodologías de investigación en inteligencia artificial"
+    },
+    {
+        id: 14,
+        topic: "Tema 2",
+        topicNum: 2,
+        type: "mc",
+        question: "¿Cuál de las siguientes es una desventaja típica de la investigación cuantitativa?",
+        options: [
+            "El investigador pierde excesiva objetividad.",
+            "El contexto del experimento suele ser ignorado.",
+            "La información obtenida es demasiado detallada.",
+            "Es sumamente útil en etapas extremadamente tempranas donde no hay hipótesis estructurada."
+        ],
+        answer: 1,
+        quote: "Ventajas y desventajas de la investigación cuantitativa: Desventajas: 1. El contexto del experimento es ignorado. 2. No estudia los fenómenos en su ambiente natural...",
+        page: "Página 41",
+        section: "2.4. Metodología empírica cuantitativa"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 3: Financiación de proyectos (15-21)
-            // ----------------------------------------------------
-            {
-                id: 15,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "tf",
-                question: "En Europa, el soporte principal de la investigación recae de forma predominante en las fuentes de financiación privadas por encima de las públicas.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso
-                quote: "Como veremos durante el tema, las fuentes de financiación pueden ser de carácter público y privado, pero en Europa predomina las fuentes de financiación públicas sobre las privadas.",
-                page: "Página 52",
-                section: "3.1. Introducción y objetivos"
-            },
-            {
-                id: 16,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "tf",
-                question: "Los proyectos europeos del programa marco exigen una colaboración transnacional en la que participen al menos tres socios de tres países en tres ámbitos.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Los proyectos europeos del programa marco tienen las siguientes características: Colaboración transnacional (mínimo tres socios, tres países en tres ámbitos: industria, centros de investigación y universidades).",
-                page: "Página 57",
-                section: "3.3. Convocatorias de financiación"
-            },
-            {
-                id: 17,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "tf",
-                question: "El Valor Actual Neto (VAN) mide la rentabilidad del proyecto. Si da exactamente 100.000 euros, significa que se recupera la inversión y se gana un excedente equivalente a ese valor.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Para que el proyecto sea rentable el VAN debe ser mayor que 0. Si el VAN da 100.000 euros, esto implica que vamos a recuperar la inversión inicial y vamos a ganar 100.000 euros.",
-                page: "Página 61",
-                section: "3.4. Elaboración de una propuesta"
-            },
-            {
-                id: 18,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "mc",
-                question: "¿Cuál de los siguientes NO constituye uno de los tres pilares básicos en los que se estructura el Programa Horizonte 2020?",
-                options: [
-                    "Ciencia excelente",
-                    "Liderazgo industrial",
-                    "Retos de la sociedad",
-                    "Sostenibilidad turística regional"
-                ],
-                answer: 3,
-                quote: "El Programa Horizonte 2020 se estructura en tres pilares básicos: 1. Ciencia excelente... 2. Liderazgo industrial... 3. Retos de la sociedad.",
-                page: "Páginas 57-58",
-                section: "3.3. Convocatorias de financiación"
-            },
-            {
-                id: 19,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "mc",
-                question: "¿Cómo se denomina formalmente el nuevo programa marco para la investigación europea vigente a partir del año 2021?",
-                options: [
-                    "Horizonte Europa",
-                    "FP9: Ciencia e Innovación",
-                    "Horizonte 2030",
-                    "Plan de Desarrollo Digital de la UE"
-                ],
-                answer: 0,
-                quote: "Desde 2021 en adelante el nuevo programa marco para la investigación europea se llama Horizonte Europa. En realidad, Horizonte Europa es la prolongación del Programa Horizonte 2020...",
-                page: "Página 58",
-                section: "3.3. Convocatorias de financiación"
-            },
-            {
-                id: 20,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "mc",
-                question: "¿Qué métrica financiera representa el tipo de interés que iguala los ingresos obtenidos con los costes de un proyecto de I+D, haciendo que el VAN sea igual a cero?",
-                options: [
-                    "Tasa de Descuento Interbancaria (TDI)",
-                    "Tasa Interna de Rentabilidad (TIR)",
-                    "Valor Nominal de Retorno (VNR)",
-                    "Margen Financiero Neto (MFN)"
-                ],
-                answer: 1,
-                quote: "La tasa interna de rentabilidad (TIR) es el tipo de interés que iguala los ingresos obtenidos con los costes, es decir, el que hace que el VAN sea 0.",
-                page: "Página 61",
-                section: "3.4. Elaboración de una propuesta"
-            },
-            {
-                id: 21,
-                topic: "Tema 3",
-                topicNum: 3,
-                type: "mc",
-                question: "¿Qué norma voluntaria española define los requisitos y la estructura que debe tener un proyecto de I+D+i para su posterior justificación y certificación de calidad?",
-                options: [
-                    "UNE 166001:2006",
-                    "UNE-ISO 690:2013",
-                    "UNE-EN 9001:2015",
-                    "UNE 166002:2014"
-                ],
-                answer: 0,
-                quote: "Esta norma es la UNE 166001:2006: Requisitos de un proyecto de I+D+i y establece cómo llevar a cabo... Justificar previamente... Documentar... Estructura... Riesgos... Presupuesto...",
-                page: "Página 65",
-                section: "3.5. Gestión económica de proyectos"
-            },
+    // ----------------------------------------------------
+    // TEMA 3: Financiación de proyectos (15-21)
+    // ----------------------------------------------------
+    {
+        id: 15,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "tf",
+        question: "En Europa, el soporte principal de la investigación recae de forma predominante en las fuentes de financiación privadas por encima de las públicas.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "Como veremos durante el tema, las fuentes de financiación pueden ser de carácter público y privado, pero en Europa predomina las fuentes de financiación públicas sobre las privadas.",
+        page: "Página 52",
+        section: "3.1. Introducción y objetivos"
+    },
+    {
+        id: 16,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "tf",
+        question: "Los proyectos europeos del programa marco exigen una colaboración transnacional en la que participen al menos tres socios de tres países en tres ámbitos.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Los proyectos europeos del programa marco tienen las siguientes características: Colaboración transnacional (mínimo tres socios, tres países en tres ámbitos: industria, centros de investigación y universidades).",
+        page: "Página 57",
+        section: "3.3. Convocatorias de financiación"
+    },
+    {
+        id: 17,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "tf",
+        question: "El Valor Actual Neto (VAN) mide la rentabilidad del proyecto. Si da exactamente 100.000 euros, significa que se recupera la inversión y se gana un excedente equivalente a ese valor.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Para que el proyecto sea rentable el VAN debe ser mayor que 0. Si el VAN da 100.000 euros, esto implica que vamos a recuperar la inversión inicial y vamos a ganar 100.000 euros.",
+        page: "Página 61",
+        section: "3.4. Elaboración de una propuesta"
+    },
+    {
+        id: 18,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "mc",
+        question: "¿Cuál de los siguientes NO constituye uno de los tres pilares básicos en los que se estructura el Programa Horizonte 2020?",
+        options: [
+            "Ciencia excelente",
+            "Liderazgo industrial",
+            "Retos de la sociedad",
+            "Sostenibilidad turística regional"
+        ],
+        answer: 3,
+        quote: "El Programa Horizonte 2020 se estructura en tres pilares básicos: 1. Ciencia excelente... 2. Liderazgo industrial... 3. Retos de la sociedad.",
+        page: "Páginas 57-58",
+        section: "3.3. Convocatorias de financiación"
+    },
+    {
+        id: 19,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "mc",
+        question: "¿Cómo se denomina formalmente el nuevo programa marco para la investigación europea vigente a partir del año 2021?",
+        options: [
+            "Horizonte Europa",
+            "FP9: Ciencia e Innovación",
+            "Horizonte 2030",
+            "Plan de Desarrollo Digital de la UE"
+        ],
+        answer: 0,
+        quote: "Desde 2021 en adelante el nuevo programa marco para la investigación europea se llama Horizonte Europa. En realidad, Horizonte Europa es la prolongación del Programa Horizonte 2020...",
+        page: "Página 58",
+        section: "3.3. Convocatorias de financiación"
+    },
+    {
+        id: 20,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "mc",
+        question: "¿Qué métrica financiera representa el tipo de interés que iguala los ingresos obtenidos con los costes de un proyecto de I+D, haciendo que el VAN sea igual a cero?",
+        options: [
+            "Tasa de Descuento Interbancaria (TDI)",
+            "Tasa Interna de Rentabilidad (TIR)",
+            "Valor Nominal de Retorno (VNR)",
+            "Margen Financiero Neto (MFN)"
+        ],
+        answer: 1,
+        quote: "La tasa interna de rentabilidad (TIR) es el tipo de interés que iguala los ingresos obtenidos con los costes, es decir, el que hace que el VAN sea 0.",
+        page: "Página 61",
+        section: "3.4. Elaboración de una propuesta"
+    },
+    {
+        id: 21,
+        topic: "Tema 3",
+        topicNum: 3,
+        type: "mc",
+        question: "¿Qué norma voluntaria española define los requisitos y la estructura que debe tener un proyecto de I+D+i para su posterior justificación y certificación de calidad?",
+        options: [
+            "UNE 166001:2006",
+            "UNE-ISO 690:2013",
+            "UNE-EN 9001:2015",
+            "UNE 166002:2014"
+        ],
+        answer: 0,
+        quote: "Esta norma es la UNE 166001:2006: Requisitos de un proyecto de I+D+i y establece cómo llevar a cabo... Justificar previamente... Documentar... Estructura... Riesgos... Presupuesto...",
+        page: "Página 65",
+        section: "3.5. Gestión económica de proyectos"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 4: Publicación de resultados (22-28)
-            // ----------------------------------------------------
-            {
-                id: 22,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "tf",
-                question: "El índice de impacto Journal Citation Report (JCR) es administrado actualmente por Elsevier a través de su plataforma Scopus.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Es gestionado por Thomson Reuters/Clarivate)
-                quote: "El Journal Citation Reports (JCR) es una base de datos gestionada por Thomson Reuters donde se detalla el índice de impacto de las revistas más importantes.",
-                page: "Página 73",
-                section: "4.2. El ciclo de las publicaciones científicas"
-            },
-            {
-                id: 23,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "tf",
-                question: "En una revisión doble ciego, tanto los nombres de los autores como de los revisores expertos son ocultados para garantizar la imparcialidad del proceso de evaluación.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Revisión doble ciego. En este tipo de revisión tanto los autores como los revisores son anónimos. Esto en teoría garantiza que no se puede hacer trato de favor al revisado por parte del revisor.",
-                page: "Página 77",
-                section: "4.2. El ciclo de las publicaciones científicas"
-            },
-            {
-                id: 24,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "tf",
-                question: "En España y muchos países europeos, las ideas científicas puras expuestas en un artículo se consideran de libre acceso y conocimiento, no estando sujetas a derechos de autor (aunque sí lo esté la forma de redacción literaria).",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Pero la protección solo se otorga a la forma en la que está escrito y no a la propia idea científica que se expone. Al menos en España. No ocurre igual en otros países, pero en España y en muchos países de Europa se considera que el conocimiento es libre, y, por tanto, no está sujeto a derechos de autor.",
-                page: "Páginas 85-86",
-                section: "4.5. Derechos de autor, ética y legalidad en el ámbito científico"
-            },
-            {
-                id: 25,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "mc",
-                question: "¿Cuál de los siguientes es el índice de impacto de países y revistas científicas desarrollado por Elsevier?",
-                options: [
-                    "LATINDEX",
-                    "IN-RECS",
-                    "SCImago Journal & Country Rank (SJR)",
-                    "JCR Social Sciences Edition"
-                ],
-                answer: 2,
-                quote: "SCImago Journal & Country Rank (SJR): incluye indicadores científicos de países y datos del factor de impacto de revistas desarrollados por Elsevier.",
-                page: "Página 74",
-                section: "4.2. El ciclo de las publicaciones científicas"
-            },
-            {
-                id: 26,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "mc",
-                question: "¿Cómo funciona el modelo de costes de publicación 'doble open-access'?",
-                options: [
-                    "El autor paga por publicar y el lector paga por leer.",
-                    "No paga nadie de forma directa para leer ni publicar, ya que los gastos son sufragados por una entidad externa de prestigio (como universidades, fundaciones, etc.).",
-                    "El coste de publicación se sufraga cobrando un porcentaje de las patentes registradas por el autor.",
-                    "La editorial vende copias físicas obligatorias de la revista a los autores."
-                ],
-                answer: 1,
-                quote: "Modelo doble open-access. en este modelo no paga nadie (en realidad paga la editorial). Es un modelo minoritario... El «truco» de este modelo no es otro que el de que existe alguien que sufraga esos gastos. Ese alguien puede ser una universidad de prestigio, una fundación...",
-                page: "Página 79",
-                section: "4.3. Congresos, revistas, libros y ponencias"
-            },
-            {
-                id: 27,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "mc",
-                question: "¿Qué índice determina el prestigio de un congreso científico basándose en su tasa de aceptación y citas recibidas, con rangos como A+, A, B o C?",
-                options: [
-                    "Índice JCR",
-                    "Índice CORE",
-                    "Índice LATINDEX",
-                    "Índice h-index"
-                ],
-                answer: 1,
-                quote: "Los congresos también tienen índices de impacto. El más conocido es el índice Core que determina el prestigio de dicho congreso en base a la cantidad de citas que tiene o al índice de aceptación de artículos. Tiene diferentes rangos como A+, A, B, C...",
-                page: "Página 80",
-                section: "4.3. Congresos, revistas, libros y ponencias"
-            },
-            {
-                id: 28,
-                topic: "Tema 4",
-                topicNum: 4,
-                type: "mc",
-                question: "¿Qué código o identificador unívoco de recurso se asigna habitualmente a los artículos científicos en la web para garantizar un acceso seguro y directo al recurso?",
-                options: [
-                    "ORCID",
-                    "ISBN",
-                    "DOI (Digital Object Identifier)",
-                    "ISSN"
-                ],
-                answer: 2,
-                quote: "La mayoría de los artículos científicos disponibles a través de la web suelen tener asignado un identificador de recurso llamado DOI (Digital Object Identifier). Este código garantiza un acceso seguro y directo al recurso identificado.",
-                page: "Página 84",
-                section: "4.4. Búsqueda de información y sistemas de gestión bibliográfica"
-            },
+    // ----------------------------------------------------
+    // TEMA 4: Publicación de resultados (22-28)
+    // ----------------------------------------------------
+    {
+        id: 22,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "tf",
+        question: "El índice de impacto Journal Citation Report (JCR) es administrado actualmente por Elsevier a través de su plataforma Scopus.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "El Journal Citation Reports (JCR) es una base de datos gestionada por Thomson Reuters donde se detalla el índice de impacto de las revistas más importantes.",
+        page: "Página 73",
+        section: "4.2. El ciclo de las publicaciones científicas"
+    },
+    {
+        id: 23,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "tf",
+        question: "En una revisión doble ciego, tanto los nombres de los autores como de los revisores expertos son ocultados para garantizar la imparcialidad del proceso de evaluación.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Revisión doble ciego. En este tipo de revisión tanto los autores como los revisores son anónimos. Esto en teoría garantiza que no se puede hacer trato de favor al revisado por parte del revisor.",
+        page: "Página 77",
+        section: "4.2. El ciclo de las publicaciones científicas"
+    },
+    {
+        id: 24,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "tf",
+        question: "En España y muchos países europeos, las ideas científicas puras expuestas en un artículo se consideran de libre acceso y conocimiento, no estando sujetas a derechos de autor (aunque sí lo esté la forma de redacción literaria).",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Pero la protección solo se otorga a la forma en la que está escrito y no a la propia idea científica que se expone. Al menos en España. No ocurre igual en otros países, pero en España y en muchos países de Europa se considera que el conocimiento es libre, y, por tanto, no está sujeto a derechos de autor.",
+        page: "Páginas 85-86",
+        section: "4.5. Derechos de autor, ética y legalidad en el ámbito científico"
+    },
+    {
+        id: 25,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "mc",
+        question: "¿Cuál de los siguientes es el índice de impacto de países y revistas científicas desarrollado por Elsevier?",
+        options: [
+            "LATINDEX",
+            "IN-RECS",
+            "SCImago Journal & Country Rank (SJR)",
+            "JCR Social Sciences Edition"
+        ],
+        answer: 2,
+        quote: "SCImago Journal & Country Rank (SJR): incluye indicadores científicos de países y datos del factor de impacto de revistas desarrollados por Elsevier.",
+        page: "Página 74",
+        section: "4.2. El ciclo de las publicaciones científicas"
+    },
+    {
+        id: 26,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "mc",
+        question: "¿Cómo funciona el modelo de costes de publicación 'doble open-access'?",
+        options: [
+            "El autor paga por publicar y el lector paga por leer.",
+            "No paga nadie de forma directa para leer ni publicar, ya que los gastos son sufragados por una entidad externa de prestigio (como universidades, fundaciones, etc.).",
+            "El coste de publicación se sufraga cobrando un porcentaje de las patentes registradas por el autor.",
+            "La editorial vende copias físicas obligatorias de la revista a los autores."
+        ],
+        answer: 1,
+        quote: "Modelo doble open-access. en este modelo no paga nadie (en realidad paga la editorial). Es un modelo minoritario... El «truco» de este modelo no es otro que el de que existe alguien que sufraga esos gastos. Ese alguien puede ser una universidad de prestigio, una fundación...",
+        page: "Página 79",
+        section: "4.3. Congresos, revistas, libros y ponencias"
+    },
+    {
+        id: 27,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "mc",
+        question: "¿Qué índice determina el prestigio de un congreso científico basándose en su tasa de aceptación y citas recibidas, con rangos como A+, A, B o C?",
+        options: [
+            "Índice JCR",
+            "Índice CORE",
+            "Índice LATINDEX",
+            "Índice h-index"
+        ],
+        answer: 1,
+        quote: "Los congresos también tienen índices de impacto. El más conocido es el índice Core que determina el prestigio de dicho congreso en base a la cantidad de citas que tiene o al índice de aceptación de artículos. Tiene diferentes rangos como A+, A, B, C...",
+        page: "Página 80",
+        section: "4.3. Congresos, revistas, libros y ponencias"
+    },
+    {
+        id: 28,
+        topic: "Tema 4",
+        topicNum: 4,
+        type: "mc",
+        question: "¿Qué código o identificador unívoco de recurso se asigna habitualmente a los artículos científicos en la web para garantizar un acceso seguro y directo al recurso?",
+        options: [
+            "ORCID",
+            "ISBN",
+            "DOI (Digital Object Identifier)",
+            "ISSN"
+        ],
+        answer: 2,
+        quote: "La mayoría de los artículos científicos disponibles a través de la web suelen tener asignado un identificador de recurso llamado DOI (Digital Object Identifier). Este código garantiza un acceso seguro y directo al recurso identificado.",
+        page: "Página 84",
+        section: "4.4. Búsqueda de información y sistemas de gestión bibliográfica"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 5: Redacción científica (29-35)
-            // ----------------------------------------------------
-            {
-                id: 29,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "tf",
-                question: "La concisión se define en la redacción científica como el uso del número mínimo de palabras posible para expresar una idea con claridad.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "La concisión consiste en el uso del número mínimo de palabras para expresar una idea. Es muy importante ser concisos para mostrar de forma más clara los conceptos interesantes...",
-                page: "Página 92",
-                section: "5.2. El estilo de redacción científica"
-            },
-            {
-                id: 30,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "tf",
-                question: "En la redacción científica, las opiniones subjetivas del investigador se consideran de alta utilidad literaria y deben anteponerse a las conclusiones obtenidas mediante experimentación empírica.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso
-                quote: "La objetividad. El autor no debe expresar su opinión salvo cuando así sea necesario. Pero en general, la redacción del artículo debe hacerse de forma impersonal sin entrar en valoraciones personales sin evidencia contrastada de las afirmaciones que se hagan.",
-                page: "Página 92",
-                section: "5.2. El estilo de redacción científica"
-            },
-            {
-                id: 31,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "tf",
-                question: "Para la gestión tipográfica avanzada de ecuaciones, tablas y referencias, LaTeX y BibTeX constituyen herramientas altamente extendidas en el ámbito de la edición científica.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "LaTeX es la solución ante estas necesidades que exigen un gran número de funcionalidades tipográficas. LaTeX se complementa con el uso de BibTeX como herramienta para dar formato a las referencias bibliográficas.",
-                page: "Página 97",
-                section: "5.3. Editores de textos científicos: LaTex"
-            },
-            {
-                id: 32,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "mc",
-                question: "¿Cuál de los siguientes es el rasgo distintivo del estilo científico relacionado directamente con la exactitud en el léxico y la terminología inequívoca de un ámbito de conocimiento?",
-                options: [
-                    "Concisión",
-                    "Precisión",
-                    "Subjetividad",
-                    "Rendimiento"
-                ],
-                answer: 1,
-                quote: "La precisión es la calidad relacionada directamente con el léxico y la terminología del ámbito de conocimiento. Se deben elegir términos que no den lugar a ambigüedades...",
-                page: "Página 91",
-                section: "5.2. El estilo de redacción científica"
-            },
-            {
-                id: 33,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "mc",
-                question: "A la hora de estructurar un texto científico, ¿dónde se detalla el conjunto de pasos, selección de muestra, datos utilizados y condiciones para garantizar la repetibilidad del experimento?",
-                options: [
-                    "Introducción",
-                    "Estado del arte",
-                    "Metodología experimental empleada",
-                    "Trabajos futuros"
-                ],
-                answer: 2,
-                quote: "Metodología experimental empleada: Se debe describir los pasos que se han realizado para hacer el experimento... los datos utilizados y cómo se han tratado... una de las principales ideas de por qué debes describir cómo se ha hecho el experimento es la repetibilidad del mismo.",
-                page: "Página 94",
-                section: "5.2. El estilo de redacción científica"
-            },
-            {
-                id: 34,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "mc",
-                question: "¿Qué estilo de formato bibliográfico es el más extendido e indicado por defecto en publicaciones relacionadas con ingeniería, informática y tecnología?",
-                options: [
-                    "The Chicago Manual of Style",
-                    "Estilo Harvard de Referencias",
-                    "IEEE Standards Style Manual",
-                    "Estilo Vancouver (URM)"
-                ],
-                answer: 2,
-                quote: "IEEE Standards Style Manual. Quizá uno de los más extendidos. Desarrollado por el Institute of Electrical and Electronic Engineers (IEEE), en el ámbito de ingeniería, informática y tecnología.",
-                page: "Página 105",
-                section: "5.4. Citas y formatos de bibliografía"
-            },
-            {
-                id: 35,
-                topic: "Tema 5",
-                topicNum: 5,
-                type: "mc",
-                question: "¿Cuál de las siguientes es una red social de carácter formal, ampliamente utilizada por los investigadores para compartir publicaciones y mantener contacto con la comunidad científica?",
-                options: [
-                    "YouTube",
-                    "GitHub",
-                    "ResearchGate",
-                    "TeXstudio"
-                ],
-                answer: 2,
-                quote: "ResearchGate: plataforma gratuita que pone en contacto a millones de investigadores de todo el mundo y permite compartir conocimiento.",
-                page: "Página 109",
-                section: "5.4. Citas y formatos de bibliografía"
-            },
+    // ----------------------------------------------------
+    // TEMA 5: Redacción científica (29-35)
+    // ----------------------------------------------------
+    {
+        id: 29,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "tf",
+        question: "La concisión se define en la redacción científica como el uso del número mínimo de palabras posible para expresar una idea con claridad.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "La concisión consiste en el uso del número mínimo de palabras para expresar una idea. Es muy importante ser concisos para mostrar de forma más clara los conceptos interesantes...",
+        page: "Página 92",
+        section: "5.2. El estilo de redacción científica"
+    },
+    {
+        id: 30,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "tf",
+        question: "En la redacción científica, las opiniones subjetivas del investigador se consideran de alta utilidad literaria y deben anteponerse a las conclusiones obtenidas mediante experimentación empírica.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "La objetividad. El autor no debe expresar su opinión salvo cuando así sea necesario. Pero en general, la redacción del artículo debe hacerse de forma impersonal sin entrar en valoraciones personales sin evidencia contrastada de las afirmaciones que se hagan.",
+        page: "Página 92",
+        section: "5.2. El estilo de redacción científica"
+    },
+    {
+        id: 31,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "tf",
+        question: "Para la gestión tipográfica avanzada de ecuaciones, tablas y referencias, LaTeX y BibTeX constituyen herramientas altamente extendidas en el ámbito de la edición científica.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "LaTeX es la solución ante estas necesidades que exigen un gran número de funcionalidades tipográficas. LaTeX se complementa con el uso de BibTeX como herramienta para dar formato a las referencias bibliográficas.",
+        page: "Página 97",
+        section: "5.3. Editores de textos científicos: LaTex"
+    },
+    {
+        id: 32,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "mc",
+        question: "¿Cuál de los siguientes es el rasgo distintivo del estilo científico relacionado directamente con la exactitud en el léxico y la terminología inequívoca de un ámbito de conocimiento?",
+        options: [
+            "Concisión",
+            "Precisión",
+            "Subjetividad",
+            "Rendimiento"
+        ],
+        answer: 1,
+        quote: "La precisión es la calidad relacionada directamente con el léxico y la terminología del ámbito de conocimiento. Se deben elegir términos que no den lugar a ambigüedades...",
+        page: "Página 91",
+        section: "5.2. El estilo de redacción científica"
+    },
+    {
+        id: 33,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "mc",
+        question: "A la hora de estructurar un texto científico, ¿dónde se detalla el conjunto de pasos, selección de muestra, datos utilizados y condiciones para garantizar la repetibilidad del experimento?",
+        options: [
+            "Introducción",
+            "Estado del arte",
+            "Metodología experimental empleada",
+            "Trabajos futuros"
+        ],
+        answer: 2,
+        quote: "Metodología experimental empleada: Se debe describir los pasos que se han realizado para hacer el experimento... los datos utilizados y cómo se han tratado... una de las principales ideas de por qué debes describir cómo se ha hecho el experimento es la repetibilidad del mismo.",
+        page: "Página 94",
+        section: "5.2. El estilo de redacción científica"
+    },
+    {
+        id: 34,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "mc",
+        question: "¿Qué estilo de formato bibliográfico es el más extendido e indicado por defecto en publicaciones relacionadas con ingeniería, informática y tecnología?",
+        options: [
+            "The Chicago Manual of Style",
+            "Estilo Harvard de Referencias",
+            "IEEE Standards Style Manual",
+            "Estilo Vancouver (URM)"
+        ],
+        answer: 2,
+        quote: "IEEE Standards Style Manual. Quizá uno de los más extendidos. Desarrollado por el Institute of Electrical and Electronic Engineers (IEEE), en el ámbito de ingeniería, informática y tecnología.",
+        page: "Página 105",
+        section: "5.4. Citas y formatos de bibliografía"
+    },
+    {
+        id: 35,
+        topic: "Tema 5",
+        topicNum: 5,
+        type: "mc",
+        question: "¿Cuál de las siguientes es una red social de carácter formal, ampliamente utilizada por los investigadores para compartir publicaciones y mantener contacto con la comunidad científica?",
+        options: [
+            "YouTube",
+            "GitHub",
+            "ResearchGate",
+            "TeXstudio"
+        ],
+        answer: 2,
+        quote: "ResearchGate: plataforma gratuita que pone en contacto a millones de investigadores de todo el mundo y permite compartir conocimiento.",
+        page: "Página 109",
+        section: "5.4. Citas y formatos de bibliografía"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 6: Soluciones empresariales de IA (36-42)
-            // ----------------------------------------------------
-            {
-                id: 36,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "tf",
-                question: "Según el estudio de Microsoft referenciado en el temario, más del 50% de las empresas en Europa ya operan de forma activa con soluciones maduras basadas en inteligencia artificial.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (28% usan/desarrollan, 51% lo planifican)
-                quote: "Con el término en castellano «inteligencia artificial» se aprecia un interés creciente... En el ámbito empresarial, un estudio de Microsoft (2018) estima que un 28% de las empresas europeas usan o están desarrollando proyectos de IA, mientras que un 51% planea hacerlo en el futuro.",
-                page: "Página 113",
-                section: "6.2. Introducción (y contexto del Tema 6)"
-            },
-            {
-                id: 37,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "tf",
-                question: "El framework PyTorch se sitúa comercialmente como una de las principales alternativas de código abierto a TensorFlow de Google.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Una de las aportaciones más destacadas de Facebook a la comunidad es el framework Pytorch, al que se puede considerar competidor de TensorFlow como recurso para generar modelos basados en deep learning.",
-                page: "Página 117",
-                section: "6.2. La inteligencia artificial en la empresa"
-            },
-            {
-                id: 38,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "tf",
-                question: "La biblioteca Scikit-learn para Python se caracteriza por centrarse exclusivamente en la computación acelerada por GPU para redes de neuronas convolucionales de gran profundidad.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Esa es TensorFlow, Keras o PyTorch; Scikit-learn implementa una amplia gama de algoritmos clásicos basados en CPU sobre NumPy, SciPy)
-                quote: "Scikit-learn lidera las librerías de machine learning en Python... implementa un gran conjunto de algoritmos de machine learning. Casi cualquier algoritmo conocido está disponible en la librería y no se centra solo en deep learning como TensorFlow.",
-                page: "Página 123",
-                section: "6.3. Herramientas comerciales para inteligencia artificial"
-            },
-            {
-                id: 39,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "mc",
-                question: "¿Cuál de las siguientes herramientas de Google se utiliza para construir modelos artísticos y generar arte visual mediante el uso de redes neuronales profundas (deep learning)?",
-                options: [
-                    "Google Earth 3D",
-                    "TensorFlow Extended",
-                    "Deep Dream",
-                    "Google Translate Engine"
-                ],
-                answer: 2,
-                quote: "Alguno de los proyectos más interesantes que ha generado Google Brain es Deep Dream, un sistema que genera arte usando machine learning.",
-                page: "Página 115",
-                section: "6.2. La inteligencia artificial en la empresa"
-            },
-            {
-                id: 40,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "mc",
-                question: "¿Qué producto estrella de la compañía IBM está orientado específicamente al procesamiento del lenguaje natural a gran escala y la computación cognitiva para resolver consultas médicas y de negocio?",
-                options: [
-                    "SageMaker",
-                    "Siri",
-                    "Watson",
-                    "Azure Cognitive Services"
-                ],
-                answer: 2,
-                quote: "Sin duda, Watson es uno de los productos estrella de IBM (relacionado además con la inteligencia artificial). Watson es una solución orientada a dar respuesta a preguntas formuladas mediante lenguaje natural. Es capaz de acumular, ordenar y clasificar información...",
-                page: "Página 119",
-                section: "6.2. La inteligencia artificial en la empresa"
-            },
-            {
-                id: 41,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "mc",
-                question: "¿Cuál de los siguientes servicios comerciales de Amazon Web Services (AWS) está dedicado a la síntesis de voz mediante tecnologías de inteligencia artificial?",
-                options: [
-                    "Amazon Lex",
-                    "Amazon Polly",
-                    "Amazon SageMaker",
-                    "Amazon Rekognition"
-                ],
-                answer: 1,
-                quote: "Amazon Polly: reconocimiento de voz (y síntesis de voz, conversión de texto a voz).",
-                page: "Página 120",
-                section: "6.2. La inteligencia artificial en la empresa"
-            },
-            {
-                id: 42,
-                topic: "Tema 6",
-                topicNum: 6,
-                type: "mc",
-                question: "¿Qué plataforma o framework de programación está específicamente diseñado para el procesamiento distribuido de grandes volúmenes de datos (Big Data) e integra algoritmos de machine learning?",
-                options: [
-                    "Keras",
-                    "Apache Spark",
-                    "Caffe",
-                    "Accord.NET"
-                ],
-                answer: 1,
-                quote: "Apache Spark es un framework de programación para procesamiento de datos distribuidos, tiene muchos algoritmos y tipos de datos útiles (basado en Apache Hadoop). Diseñado para ser rápido y escalable.",
-                page: "Páginas 124-125",
-                section: "6.3. Herramientas comerciales para inteligencia artificial"
-            },
+    // ----------------------------------------------------
+    // TEMA 6: Soluciones empresariales de IA (36-42)
+    // ----------------------------------------------------
+    {
+        id: 36,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "tf",
+        question: "Según el estudio de Microsoft referenciado en el temario, más del 50% de las empresas en Europa ya operan de forma activa con soluciones maduras basadas en inteligencia artificial.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "Con el término en castellano «inteligencia artificial» se aprecia un interés creciente... En el ámbito empresarial, un estudio de Microsoft (2018) estima que un 28% de las empresas europeas usan o están desarrollando proyectos de IA, mientras que un 51% planea hacerlo en el futuro.",
+        page: "Página 113",
+        section: "6.2. Introducción (y contexto del Tema 6)"
+    },
+    {
+        id: 37,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "tf",
+        question: "El framework PyTorch se sitúa comercialmente como una de las principales alternativas de código abierto a TensorFlow de Google.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Una de las aportaciones más destacadas de Facebook a la comunidad es el framework Pytorch, al que se puede considerar competidor de TensorFlow como recurso para generar modelos basados en deep learning.",
+        page: "Página 117",
+        section: "6.2. La inteligencia artificial en la empresa"
+    },
+    {
+        id: 38,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "tf",
+        question: "La biblioteca Scikit-learn para Python se caracteriza por centrarse exclusivamente en la computación acelerada por GPU para redes de neuronas convolucionales de gran profundidad.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "Scikit-learn lidera las librerías de machine learning en Python... implementa un gran conjunto de algoritmos de machine learning. Casi cualquier algoritmo conocido está disponible en la librería y no se centra solo en deep learning como TensorFlow.",
+        page: "Página 123",
+        section: "6.3. Herramientas comerciales para inteligencia artificial"
+    },
+    {
+        id: 39,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "mc",
+        question: "¿Cuál de las siguientes herramientas de Google se utiliza para construir modelos artísticos y generar arte visual mediante el uso de redes neuronales profundas (deep learning)?",
+        options: [
+            "Google Earth 3D",
+            "TensorFlow Extended",
+            "Deep Dream",
+            "Google Translate Engine"
+        ],
+        answer: 2,
+        quote: "Alguno de los proyectos más interesantes que ha generado Google Brain es Deep Dream, un sistema que genera arte usando machine learning.",
+        page: "Página 115",
+        section: "6.2. La inteligencia artificial en la empresa"
+    },
+    {
+        id: 40,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "mc",
+        question: "¿Qué producto estrella de la compañía IBM está orientado específicamente al procesamiento del lenguaje natural a gran escala y la computación cognitiva para resolver consultas médicas y de negocio?",
+        options: [
+            "SageMaker",
+            "Siri",
+            "Watson",
+            "Azure Cognitive Services"
+        ],
+        answer: 2,
+        quote: "Sin duda, Watson es uno de los productos estrella de IBM (relacionado además con la inteligencia artificial). Watson es una solución orientada a dar respuesta a preguntas formuladas mediante lenguaje natural. Es capaz de acumular, ordenar y clasificar información...",
+        page: "Página 119",
+        section: "6.2. La inteligencia artificial en la empresa"
+    },
+    {
+        id: 41,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "mc",
+        question: "¿Cuál de los siguientes servicios comerciales de Amazon Web Services (AWS) está dedicado a la síntesis de voz mediante tecnologías de inteligencia artificial?",
+        options: [
+            "Amazon Lex",
+            "Amazon Polly",
+            "Amazon SageMaker",
+            "Amazon Rekognition"
+        ],
+        answer: 1,
+        quote: "Amazon Polly: reconocimiento de voz (y síntesis de voz, conversión de texto a voz).",
+        page: "Página 120",
+        section: "6.2. La inteligencia artificial en la empresa"
+    },
+    {
+        id: 42,
+        topic: "Tema 6",
+        topicNum: 6,
+        type: "mc",
+        question: "¿Qué plataforma o framework de programación está específicamente diseñado para el procesamiento distribuido de grandes volúmenes de datos (Big Data) e integra algoritmos de machine learning?",
+        options: [
+            "Keras",
+            "Apache Spark",
+            "Caffe",
+            "Accord.NET"
+        ],
+        answer: 1,
+        quote: "Apache Spark es un framework de programación para procesamiento de datos distribuidos, tiene muchos algoritmos y tipos de datos útiles (basado en Apache Hadoop). Diseñado para ser rápido y escalable.",
+        page: "Páginas 124-125",
+        section: "6.3. Herramientas comerciales para inteligencia artificial"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 7: Gestión de proyectos de IA (43-49)
-            // ----------------------------------------------------
-            {
-                id: 43,
-                topic: "Tema 7",
-                topicNum: 7,
-                type: "tf",
-                question: "Un proyecto se define en ingeniería del software como un esfuerzo temporal emprendido para crear un único producto o servicio.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Un proyecto es un esfuerzo temporal emprendido para crear un único producto o servicio. Se debe distinguir claramente los proyectos de las operaciones.",
-                page: "Página 141",
-                section: "7.2. Conceptos generales de ingeniería del software"
-            },
-            {
-                id: 44,
-                topic: "Tema 7",
-                topicNum: 7,
-                type: "tf",
-                question: "En la metodología Scrum, la figura encargada de actuar como coach, mentor y facilitador del equipo, resolviendo los impedimentos del sprint, se denomina Product Owner.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Ese es el Scrum Master)
-                quote: "La figura del Scrum Máster es una figura capital dentro de Scrum... El Scrum Máster tendría una figura similar a la de un coach/mentor... actuando como un facilitador y solucionador de problemas.",
-                page: "Páginas 150-151",
-                section: "7.2. Conceptos generales de ingeniería del software"
-            },
-            {
-                id: 45,
-                topic: "Tema 7",
-                topicNum: 7,
-                type: "tf",
-                question: "El modelo de despliegue 'PaaS' (Platform as a Service) ofrece al usuario el control total sobre la infraestructura física del servidor, incluyendo discos duros, cableado de red y sistemas de refrigeración.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Ese sería IaaS a nivel lógico, PaaS no da control de infraestructuras, solo de la aplicación)
-                quote: "Platform as a Service (PaaS): modelo de servicio que ofrece desarrollo y ejecución de aplicaciones... El usuario no tiene que gestionar las infraestructuras, solo las aplicaciones.",
-                page: "Página 159",
-                section: "7.4. Despliegue de soluciones de IA"
-            },
-           {
-                id: 46,
-                topic: "Tema 7",
-                topicNum: 7,
-                type: "mc",
-                question: "¿Qué modelo de ciclo de vida del software clásico, formal y exhaustivamente documentado, presenta una sobrecarga tan elevada que hoy en día solo se usa para sistemas de seguridad crítica u organismos de defensa estatal?",
-                options: [
-                    "Ciclo de vida en Cascada Puro",
-                    "Modelo Espiral de Boehm",
-                    "Proceso Unificado (Unified Process)",
-                    "Metodología Scrum Ágil"
-                ],
-                answer: 2,
-                quote: "De esto surge el denominado modelo Proceso Unificado. Este es el modelo culmen de la ingeniería del software clásica. Un modelo formal, muy documentado y que mantenerlo en funcionamiento requiere de multitud de recursos. [...] Actualmente este modelo solo se usa para entornos muy concretos como proyectos de alto riesgo, para las grandes administraciones, para seguridad del estado, sistemas críticos, etc.",
-                page: "Páginas 146-147",
-                section: "7.2. Conceptos generales de ingeniería del software"
-            },			
-            {
-                id: 47,
-                tag: "GAMBAR 7",
-                shortTitle: "Ciclo de Vida de Proyectos de IA: CRISP-DM",
-                title: "En el contexto de la gestión de proyectos de minería de datos e inteligencia artificial, ¿qué significa el acrónimo de la metodología estándar CRISP-DM?",
-                options: [
-                  "A. Cross Industry Standard Process for Data Mining",
-                  "B. Cognitive Research and Intelligent Systems Programming Database",
-                  "C. Complex Risk Integration and Software Process Development Methodology",
-                  "D. Computer Resources and Information Systems Planning for Data Models"
-                ],
-                answer: 0,
-                quote: "Contextualizando dicho método a nuestro ámbito, y más concretamente en el terreno de la minería de datos, la metodología CRISP-DM, de Cross Industry Standard Process for Data Mining, ha tenido gran aceptación entre los distintos expertos.",
-                page: "Página 154",
-                section: "7.3 Ciclo de vida del proyecto de inteligencia artificial"
-            },
-            {
-                id: 48,
-                topic: "Tema 7",
-                topicNum: 7,
-                type: "mc",
-                question: "¿Cuál de los siguientes modelos de servicio de Cloud Computing permite al usuario desplegar cualquier sistema operativo y controlar la configuración del almacenamiento y las redes de forma directa?",
-                options: [
-                    "Software as a Service (SaaS)",
-                    "Platform as a Service (PaaS)",
-                    "Infrastructure as a Service (IaaS)",
-                    "Data Center as a Service (DCaaS)"
-                ],
-                answer: 2,
-                quote: "Infrastructure as a Service (IaaS): modelo de servicio que permite el uso y aprovisionamiento de procesamiento, almacenamiento, redes y otros recursos para ejecutar cualquier software, incluyendo sistemas operativos... El usuario tiene control sobre el sistema operativo, configuración de redes...",
-                page: "Página 159",
-                section: "7.4. Despliegue de soluciones de IA"
-            },
-            {
-                id: 49,
-                topic: "Tema 7",
-                topicNum: 7,
-                type: "mc",
-                question: "¿Qué perfil analítico dentro de un proyecto de IA es responsable directo de diseñar y estructurar los recursos técnicos en la nube (cloud computing) de forma escalable y tolerante a fallos?",
-                options: [
-                    "Jefe de Proyecto",
-                    "Ingeniero de Datos",
-                    "Arquitecto de Datos",
-                    "Analista de Negocio"
-                ],
-                answer: 2,
-                quote: "Arquitecto de datos: perfil responsable de proporcionar una infraestructura, normalmente basada en entornos cloud, que almacena toda la información y proporciona capacidad de cómputo de forma escalable y tolerante a fallos.",
-                page: "Página 164",
-                section: "7.5. Perfiles de participantes en proyectos de inteligencia artificial"
-            },
+    // ----------------------------------------------------
+    // TEMA 7: Gestión de proyectos de IA (43-49)
+    // ----------------------------------------------------
+    {
+        id: 43,
+        topic: "Tema 7",
+        topicNum: 7,
+        type: "tf",
+        question: "Un proyecto se define en ingeniería del software como un esfuerzo temporal emprendido para crear un único producto o servicio.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Un proyecto es un esfuerzo temporal emprendido para crear un único producto o servicio. Se debe distinguir claramente los proyectos de las operaciones.",
+        page: "Página 141",
+        section: "7.2. Conceptos generales de ingeniería del software"
+    },
+    {
+        id: 44,
+        topic: "Tema 7",
+        topicNum: 7,
+        type: "tf",
+        question: "En la metodología Scrum, la figura encargada de actuar como coach, mentor y facilitador del equipo, resolviendo los impedimentos del sprint, se denomina Product Owner.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "La figura del Scrum Máster es una figura capital dentro de Scrum... El Scrum Máster tendría una figura similar a la de un coach/mentor... actuando como un facilitador y solucionador de problemas.",
+        page: "Páginas 150-151",
+        section: "7.2. Conceptos generales de ingeniería del software"
+    },
+    {
+        id: 45,
+        topic: "Tema 7",
+        topicNum: 7,
+        type: "tf",
+        question: "El modelo de despliegue 'PaaS' (Platform as a Service) ofrece al usuario el control total sobre la infraestructura física del servidor, incluyendo discos duros, cableado de red y sistemas de refrigeración.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "Platform as a Service (PaaS): modelo de servicio que ofrece desarrollo y ejecución de aplicaciones... El usuario no tiene que gestionar las infraestructuras, solo las aplicaciones.",
+        page: "Página 159",
+        section: "7.4. Despliegue de soluciones de IA"
+    },
+    {
+        id: 46,
+        topic: "Tema 7",
+        topicNum: 7,
+        type: "mc",
+        question: "¿Qué modelo de desarrollo de la ingeniería del software clásica es formal, exhaustivamente documentado y actualmente se reserva para entornos de alto riesgo o seguridad del estado?",
+        options: [
+            "Ciclo de vida en Cascada Puro",
+            "Modelo Espiral de Boehm",
+            "Proceso Unificado (Unified Process)",
+            "Metodología Scrum Ágil"
+        ],
+        answer: 2,
+        quote: "De esto surge el denominado modelo Proceso Unificado. Este es el modelo culmen de la ingeniería del software clásica. Un modelo formal, muy documentado y que mantenerlo en funcionamiento requiere de multitud de recursos. [...] Actualmente este modelo solo se usa para entornos muy concretos como proyectos de alto riesgo, para las grandes administraciones, para seguridad del estado, sistemas críticos, etc.",
+        page: "Páginas 146-147",
+        section: "7.2. Conceptos generales de ingeniería del software"
+    },			
+    {
+        id: 47,
+        tag: "GAMBAR 7",
+        shortTitle: "Ciclo de Vida de Proyectos de IA: CRISP-DM",
+        title: "En el contexto de la gestión de proyectos de minería de datos e inteligencia artificial, ¿qué significa el acrónimo de la metodología estándar CRISP-DM?",
+        options: [
+            "A. Cross Industry Standard Process for Data Mining",
+            "B. Cognitive Research and Intelligent Systems Programming Database",
+            "C. Complex Risk Integration and Software Process Development Methodology",
+            "D. Computer Resources and Information Systems Planning for Data Models"
+        ],
+        answer: 0,
+        quote: "Contextualizando dicho método a nuestro ámbito, y más concretamente en el terreno de la minería de datos, la metodología CRISP-DM, de Cross Industry Standard Process for Data Mining, ha tenido gran aceptación entre los distintos expertos.",
+        page: "Página 154",
+        section: "7.3 Ciclo de vida del proyecto de inteligencia artificial"
+    },
+    {
+        id: 48,
+        topic: "Tema 7",
+        topicNum: 7,
+        type: "mc",
+        question: "¿Cuál de los siguientes modelos de servicio de Cloud Computing permite al usuario desplegar cualquier sistema operativo y controlar la configuración del almacenamiento y las redes de forma directa?",
+        options: [
+            "Software as a Service (SaaS)",
+            "Platform as a Service (PaaS)",
+            "Infrastructure as a Service (IaaS)",
+            "Data Center as a Service (DCaaS)"
+        ],
+        answer: 2,
+        quote: "Infrastructure as a Service (IaaS): modelo de servicio que permite el uso y aprovisionamiento de procesamiento, almacenamiento, redes y otros recursos para ejecutar cualquier software, incluyendo sistemas operativos... El usuario tiene control sobre el sistema operativo, configuración de redes...",
+        page: "Página 159",
+        section: "7.4. Despliegue de soluciones de IA"
+    },
+    {
+        id: 49,
+        topic: "Tema 7",
+        topicNum: 7,
+        type: "mc",
+        question: "¿Qué perfil analítico dentro de un proyecto de IA es responsable directo de diseñar y estructurar los recursos técnicos en la nube (cloud computing) de forma escalable y tolerante a fallos?",
+        options: [
+            "Jefe de Proyecto",
+            "Ingeniero de Datos",
+            "Arquitecto de Datos",
+            "Analista de Negocio"
+        ],
+        answer: 2,
+        quote: "Arquitecto de datos: perfil responsable de proporcionar una infraestructura, normalmente basada en entornos cloud, que almacena toda la información y proporciona capacidad de cómputo de forma escalable y tolerante a fallos.",
+        page: "Página 164",
+        section: "7.5. Perfiles de participantes en proyectos de inteligencia artificial"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 8: Agentes inteligentes y sistemas expertos (50-56)
-            // ----------------------------------------------------
-            {
-                id: 50,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "tf",
-                question: "En la definición abstracta de un agente inteligente, la función matemática establecida convierte percepciones en acciones ($f: P^* \\rightarrow A$).",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "De forma abstracta, un agente es una función que convierte las percepciones en acciones: f: P* -> A, donde P* indica un conjunto de percepciones finito y A indica la acción que llevamos a cabo en función de dichas percepciones.",
-                page: "Página 169",
-                section: "8.2. Introducción a los agentes inteligentes"
-            },
-            {
-                id: 51,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "tf",
-                question: "En las propiedades de los entornos de trabajo, un entorno es estocástico si el siguiente estado está completamente determinado por el estado actual y la acción del agente.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Ese es determinista)
-                quote: "Un entorno de trabajo es determinista cuando el siguiente estado del entorno está totalmente determinado por el estado actual y la acción ejecutada por el agente. En otro caso, hablamos de un entorno estocástico.",
-                page: "Página 173",
-                section: "8.3. Comportamiento y entorno de los agentes inteligentes"
-            },
-            {
-                id: 52,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "tf",
-                question: "El componente 'generador de problemas' en un agente que aprende tiene la misión de sugerir acciones exploratorias novedosas aunque no sean óptimas a corto plazo.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Por último, el generador de problemas tiene la misión de sugerir acciones exploratorias (similares a un experimento) que, aunque puedan ser consideradas como no óptimas a corto plazo, son útiles para llegar a soluciones mejores que las actuales a largo plazo.",
-                page: "Página 181",
-                section: "8.4. Estructura de los agentes inteligentes"
-            },
-            {
-                id: 53,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "mc",
-                question: "En el diseño de agentes inteligentes, ¿qué representa el acrónimo REAS?",
-                options: [
-                    "Rendimiento, Entorno, Actuadores, Sensores",
-                    "Reglas, Evolución, Algoritmos, Simulación",
-                    "Redes, Estructura, Análisis, Sistemas",
-                    "Razonamiento, Entropía, Aprendizaje, Simplicidad"
-                ],
-                answer: 0,
-                quote: "Para diseñar un agente inteligente debemos especificar de antemano el entorno en el que se va a ejecutar la tarea... Todo ello constituye lo que se llama el entorno de trabajo, para cuya denominación se utiliza el acrónimo REAS (Rendimiento, Entorno, Actuadores/Acciones, Sensores).",
-                page: "Página 171",
-                section: "8.3. Comportamiento y entorno de los agentes inteligentes"
-            },
-            {
-                id: 54,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "mc",
-                question: "Un robot de una cadena de montaje que descarta piezas defectuosas basándose solo en la pieza actual, sin importar las piezas pasadas o futuras, opera en un entorno de qué tipo?",
-                options: [
-                    "Entorno Secuencial",
-                    "Entorno Estocástico",
-                    "Entorno Episódico",
-                    "Entorno Dinámico"
-                ],
-                answer: 2,
-                quote: "En un entorno secuencial las acciones realizadas en el corto plazo pueden afectar a largo plazo... Por el contrario, en un entorno de trabajo episódico, las acciones a realizar en el siguiente episodio no dependen de las acciones que se realizaron en episodios previos. Por ejemplo, un robot ubicado en una cadena de montaje...",
-                page: "Página 173",
-                section: "8.3. Comportamiento y entorno de los agentes inteligentes"
-            },
-            {
-                id: 55,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "mc",
-                question: "¿Qué tipo de agente inteligente almacena un estado interno histórico para modelar cómo evoluciona el mundo en el tiempo de forma independiente a la acción del agente?",
-                options: [
-                    "Agente reactivo simple",
-                    "Agente reactivo basado en modelos",
-                    "Agente basado en metas",
-                    "Agente basado en utilidad"
-                ],
-                answer: 1,
-                quote: "El modelo del ciclo... (Y el contexto de tipos de agentes en Tema 8) -> Un agente reactivo basado en modelos mantiene un estado interno dependiente de la historia de percepciones, reflejando aspectos del entorno que no son visibles en el momento actual.",
-                page: "Página 174-175",
-                section: "8.4. Estructura de los agentes inteligentes"
-            },
-            {
-                id: 56,
-                topic: "Tema 8",
-                topicNum: 8,
-                type: "mc",
-                question: "¿Cuál de los siguientes lenguajes de programación se utiliza típicamente para implementar sistemas expertos basados en reglas y lógica de predicados?",
-                options: [
-                    "Python",
-                    "Prolog",
-                    "HTML5 Canvas",
-                    "Caffe"
-                ],
-                answer: 1,
-                quote: "El desarrollo de un sistema experto suele exigir el modelado... Para esta tarea, sistemas basados en reglas o lenguajes declarativos como Prolog (así como herramientas como Clip, Jess, Lisa...) han sido de especial relevancia.",
-                page: "Páginas 185-186",
-                section: "8.5. Sistemas expertos"
-            },
+    // ----------------------------------------------------
+    // TEMA 8: Agentes inteligentes y sistemas expertos (50-56)
+    // ----------------------------------------------------
+    {
+        id: 50,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "tf",
+        question: "En la definición abstracta de un agente inteligente, la función matemática establecida convierte percepciones en acciones ($f: P^* \\rightarrow A$).",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "De forma abstracta, un agente es una función que convierte las percepciones en acciones: f: P* -> A, donde P* indica un conjunto de percepciones finito y A indica la acción que llevamos a cabo en función de dichas percepciones.",
+        page: "Página 169",
+        section: "8.2. Introducción a los agentes inteligentes"
+    },
+    {
+        id: 51,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "tf",
+        question: "En las propiedades de los entornos de trabajo, un entorno es estocástico si el siguiente estado está completamente determinado por el estado actual y la acción del agente.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "Un entorno de trabajo es determinista cuando el siguiente estado del entorno está totalmente determinado por el estado actual y la acción ejecutada por el agente. En otro caso, hablamos de un entorno estocástico.",
+        page: "Página 173",
+        section: "8.3. Comportamiento y entorno de los agentes inteligentes"
+    },
+    {
+        id: 52,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "tf",
+        question: "El componente 'generador de problemas' en un agente que aprende tiene la misión de sugerir acciones exploratorias novedosas aunque no sean óptimas a corto plazo.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Por último, el generador de problemas tiene la misión de sugerir acciones exploratorias (similares a un experimento) que, aunque puedan ser consideradas como no óptimas a corto plazo, son útiles para llegar a soluciones mejores que las actuales a largo plazo.",
+        page: "Página 181",
+        section: "8.4. Estructura de los agentes inteligentes"
+    },
+    {
+        id: 53,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "mc",
+        question: "En el diseño de agentes inteligentes, ¿qué representa el acrónimo REAS?",
+        options: [
+            "Rendimiento, Entorno, Actuadores, Sensores",
+            "Reglas, Evolución, Algoritmos, Simulación",
+            "Redes, Estructura, Análisis, Sistemas",
+            "Razonamiento, Entropía, Aprendizaje, Simplicidad"
+        ],
+        answer: 0,
+        quote: "Para diseñar un agente inteligente debemos especificar de antemano el entorno en el que se va a ejecutar la tarea... Todo ello constituye lo que se llama el entorno de trabajo, para cuya denominación se utiliza el acrónimo REAS (Rendimiento, Entorno, Actuadores/Acciones, Sensores).",
+        page: "Página 171",
+        section: "8.3. Comportamiento y entorno de los agentes inteligentes"
+    },
+    {
+        id: 54,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "mc",
+        question: "Un robot de una cadena de montaje que descarta piezas defectuosas basándose solo en la pieza actual, sin importar las piezas pasadas o futuras, opera en un entorno de qué tipo?",
+        options: [
+            "Entorno Secuencial",
+            "Entorno Estocástico",
+            "Entorno Episódico",
+            "Entorno Dinámico"
+        ],
+        answer: 2,
+        quote: "En un entorno secuencial las acciones realizadas en el corto plazo pueden afectar a largo plazo... Por el contrario, en un entorno de trabajo episódico, las acciones a realizar en el siguiente episodio no dependen de las acciones que se realizaron en episodios previos. Por ejemplo, un robot ubicado en una cadena de montaje...",
+        page: "Página 173",
+        section: "8.3. Comportamiento y entorno de los agentes inteligentes"
+    },
+    {
+        id: 55,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "mc",
+        question: "¿Qué tipo de agente inteligente almacena un estado interno histórico para modelar cómo evoluciona el mundo en el tiempo de forma independiente a la acción del agente?",
+        options: [
+            "Agente reactivo simple",
+            "Agente reactivo basado en modelos",
+            "Agente basado en metas",
+            "Agente basado en utilidad"
+        ],
+        answer: 1,
+        quote: "Un agente reactivo basado en modelos mantiene un estado interno dependiente de la historia de percepciones, reflejando aspectos del entorno que no son visibles en el momento actual.",
+        page: "Página 174-175",
+        section: "8.4. Estructura de los agentes inteligentes"
+    },
+    {
+        id: 56,
+        topic: "Tema 8",
+        topicNum: 8,
+        type: "mc",
+        question: "¿Cuál de los siguientes lenguajes de programación se utiliza típicamente para implementar sistemas expertos basados en reglas y lógica de predicados?",
+        options: [
+            "Python",
+            "Prolog",
+            "HTML5 Canvas",
+            "Caffe"
+        ],
+        answer: 1,
+        quote: "El desarrollo de un sistema experto suele exigir el modelado... Para esta tarea, sistemas basados en reglas o lenguajes declarativos como Prolog (así como herramientas como Clip, Jess, Lisa...) han sido de especial relevancia.",
+        page: "Páginas 185-186",
+        section: "8.5. Sistemas expertos"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 9: Aprendizaje automático (57-63)
-            // ----------------------------------------------------
-            {
-                id: 57,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "tf",
-                question: "El algoritmo K-NN (K-vecinos más cercanos) es considerado un método paramétrico ya que asume de forma estricta la distribución de los datos de entrada.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Es no paramétrico)
-                quote: "K-NN ventajas: No paramétrico (salvo que usemos distancias ponderadas). No hace suposiciones explícitas sobre la forma funcional de los datos, evitando los peligros de la distribución subyacente de los datos.",
-                page: "Página 203",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
-            {
-                id: 58,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "tf",
-                question: "En un árbol de decisión, el algoritmo utiliza el concepto físico de la entropía como medida de la incertidumbre para decidir qué atributo colocar más cerca de la raíz.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Este algoritmo utiliza la entropía (medida de incertidumbre o de desorden) para ayudar a decidir qué atributo debe ser el siguiente en ser evaluado en el árbol... se pretende maximizar la ganancia de información.",
-                page: "Páginas 205-206",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
-            {
-                id: 59,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "tf",
-                question: "El algoritmo de retropropagación del error (backpropagation) en redes neuronales utiliza la derivada del error para modificar secuencialmente los pesos sinápticos de la red.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Normalmente, se utiliza para aprender el algoritmo de retropropagación del error cometido por la red... la derivada del error producido entre la salida generada y la esperada va modificando los pesos de la red en una especie de descenso de gradiente.",
-                page: "Página 211",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
-            {
-                id: 60,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "mc",
-                question: "¿Cuál de los siguientes algoritmos de machine learning se basa en el 'truco del kernel' para proyectar datos no linealmente separables a una dimensión superior donde sí exista un hiperplano separador?",
-                options: [
-                    "Árbol de Decisión ID3",
-                    "Máquinas de Vectores de Soporte (SVM)",
-                    "Clústering K-Means",
-                    "K-NN"
-                ],
-                answer: 1,
-                quote: "Hay veces en las que no hay forma de encontrar un hiperplano que permita separar dos clases... Para resolver este problema se puede usar un kernel. El truco del kernel consiste en inventar una dimensión nueva en la que podamos encontrar un hiperplano para separar las clases.",
-                page: "Páginas 214-215",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
-            {
-                id: 61,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "mc",
-                question: "¿Qué tipo de red profunda se caracteriza por poseer una memoria de trabajo con la capacidad de realizar operaciones selectivas de lectura y escritura a través de cabezas específicas?",
-                options: [
-                    "Autoencoders",
-                    "Redes neuronales convolucionales",
-                    "Neural Turing machines (NTM)",
-                    "Hopfield Networks"
-                ],
-                answer: 2,
-                quote: "Una máquina de Turing neural es una red neural extendida con una memoria de trabajo que le proporciona unas altas capacidades de aprendizaje... interactúa con una matriz de memoria utilizando operaciones selectivas de lectura y escritura.",
-                page: "Página 212",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
-            {
-                id: 62,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "mc",
-                question: "¿Cuál de los siguientes es un algoritmo de aprendizaje por refuerzo puro diseñado para aprender una política de control mediante la optimización iterativa de valores almacenados en una tabla de calidad estado-acción?",
-                options: [
-                    "K-Means",
-                    "Random Forest",
-                    "Q-Learning",
-                    "Restricted Boltzmann Machines"
-                ],
-                answer: 2,
-                quote: "El objetivo del aprendizaje por refuerzo es extraer qué acciones deben ser elegidas en los diferentes estados para maximizar la recompensa. Buscamos, por tanto, que el agente aprenda una política... Q-learning. El algoritmo, por tanto, tiene una función que calcula la calidad de una combinación estado-acción...",
-                page: "Página 216",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
-            {
-                id: 63,
-                topic: "Tema 9",
-                topicNum: 9,
-                type: "mc",
-                question: "En el algoritmo de clústering K-Means, ¿cuál es el criterio para realizar la asignación de las muestras en los diferentes grupos?",
-                options: [
-                    "Se evalúa la entropía cruzada de las etiquetas.",
-                    "Se calcula la distancia de cada muestra al centroide del clúster más cercano.",
-                    "Se busca el hiperplano óptimo definido por los vectores de soporte.",
-                    "Se realiza una votación democrática entre múltiples árboles de decisión."
-                ],
-                answer: 1,
-                quote: "K-means necesita como dato de entrada el número de grupos... el algoritmo coloca primero k puntos aleatorios (centroides). Luego asigna a cualquiera de esos puntos todas las muestras con las distancias más pequeñas. A continuación, el punto se desplaza a la media...",
-                page: "Página 219",
-                section: "9.4. Técnicas de aprendizaje automático"
-            },
+    // ----------------------------------------------------
+    // TEMA 9: Aprendizaje automático (57-63)
+    // ----------------------------------------------------
+    {
+        id: 57,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "tf",
+        question: "El algoritmo K-NN (K-vecinos más cercanos) es considerado un método paramétrico ya que asume de forma estricta la distribución de los datos de entrada.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "K-NN ventajas: No paramétrico (salvo que usemos distancias ponderadas). No hace suposiciones explícitas sobre la forma funcional de los datos, evitando los peligros de la distribución subyacente de los datos.",
+        page: "Página 203",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
+    {
+        id: 58,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "tf",
+        question: "En un árbol de decisión, el algoritmo utiliza el concepto físico de la entropía como medida de la incertidumbre para decidir qué atributo colocar más cerca de la raíz.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Este algoritmo utiliza la entropía (medida de incertidumbre o de desorden) para ayudar a decidir qué atributo debe ser el siguiente en ser evaluado en el árbol... se pretende maximizar la ganancia de información.",
+        page: "Páginas 205-206",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
+    {
+        id: 59,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "tf",
+        question: "El algoritmo de retropropagación del error (backpropagation) en redes neuronales utiliza la derivada del error para modificar secuencialmente los pesos sinápticos de la red.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Normalmente, se utiliza para aprender el algoritmo de retropropagación del error cometido por la red... la derivada del error producido entre la salida generada y la esperada va modificando los pesos de la red en una especie de descenso de gradiente.",
+        page: "Página 211",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
+    {
+        id: 60,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "mc",
+        question: "¿Cuál de los siguientes algoritmos de machine learning se basa en el 'truco del kernel' para proyectar datos no linealmente separables a una dimensión superior donde sí exista un hiperplano separador?",
+        options: [
+            "Árbol de Decisión ID3",
+            "Máquinas de Vectores de Soporte (SVM)",
+            "Clústering K-Means",
+            "K-NN"
+        ],
+        answer: 1,
+        quote: "Hay veces en las que no hay forma de encontrar un hiperplano que permita separar dos clases... Para resolver este problema se puede usar un kernel. El truco del kernel consiste en inventar una dimensión nueva en la que podamos encontrar un hiperplano para separar las clases.",
+        page: "Páginas 214-215",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
+    {
+        id: 61,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "mc",
+        question: "¿Qué tipo de red profunda se caracteriza por poseer una memoria de trabajo con la capacidad de realizar operaciones selectivas de lectura y escritura a través de cabezas específicas?",
+        options: [
+            "Autoencoders",
+            "Redes neuronales convolucionales",
+            "Neural Turing machines (NTM)",
+            "Hopfield Networks"
+        ],
+        answer: 2,
+        quote: "Una máquina de Turing neural es una red neural extendida con una memoria de trabajo que le proporciona unas altas capacidades de aprendizaje... interactúa con una matriz de memoria utilizando operaciones selectivas de lectura y escritura.",
+        page: "Página 212",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
+    {
+        id: 62,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "mc",
+        question: "¿Cuál de los siguientes es un algoritmo de aprendizaje por refuerzo puro diseñado para aprender una política de control mediante la optimización iterativa de valores almacenados en una tabla de calidad estado-acción?",
+        options: [
+            "K-Means",
+            "Random Forest",
+            "Q-Learning",
+            "Restricted Boltzmann Machines"
+        ],
+        answer: 2,
+        quote: "El objetivo del aprendizaje por refuerzo es extraer qué acciones deben ser elegidas en los diferentes estados para maximizar la recompensa. Buscamos, por tanto, que el agente aprenda una política... Q-learning. El algoritmo, por tanto, tiene una función que calcula la calidad de una combinación estado-acción...",
+        page: "Página 216",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
+    {
+        id: 63,
+        topic: "Tema 9",
+        topicNum: 9,
+        type: "mc",
+        question: "En el algoritmo de clústering K-Means, ¿cuál es el criterio para realizar la asignación de las muestras en los diferentes grupos?",
+        options: [
+            "Se evalúa la entropía cruzada de las etiquetas.",
+            "Se calcula la distancia de cada muestra al centroide del clúster más cercano.",
+            "Se busca el hiperplano óptimo definido por los vectores de soporte.",
+            "Se realiza una votación democrática entre múltiples árboles de decisión."
+        ],
+        answer: 1,
+        quote: "K-means necesita como dato de entrada el número de grupos... el algoritmo coloca primero k puntos aleatorios (centroides). Luego asigna a cualquiera de esos puntos todas las muestras con las distancias más pequeñas. A continuación, el punto se desplaza a la media...",
+        page: "Página 219",
+        section: "9.4. Técnicas de aprendizaje automático"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 10: Sistemas cognitivos (64-70)
-            // ----------------------------------------------------
-            {
-                id: 64,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "tf",
-                question: "Un sistema cognitivo está optimizado y específicamente orientado para funcionar en entornos estrictamente deterministas y sin ningún margen de incertidumbre.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso (Es para probabilísticos, con incertidumbre)
-                quote: "Los sistemas cognitivos están orientados a entornos probabilísticos, no determinísticos... En general, se puede decir que este tipo de sistemas está enfocado para contextos que deben trabajar en un entorno de incertidumbre...",
-                page: "Páginas 226-227",
-                section: "10.2. Introducción a la computación cognitiva"
-            },
-            {
-                id: 65,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "tf",
-                question: "La herramienta Protégé es una de las aplicaciones de software más útiles y extendidas para la creación y el diseño formal de ontologías.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "La herramienta Prótegé, gestionada ahora por la Universidad de Stanford en colaboración con la Universidad de Manchester, es una de las herramientas más útiles para la creación de ontologías.",
-                page: "Página 231",
-                section: "10.3. Elementos de un sistema cognitivo"
-            },
-            {
-                id: 66,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "tf",
-                question: "En las bases de datos NoSQL, se renuncia a ciertas propiedades ACID clásicas de los sistemas de bases de datos relacionales a cambio de un desempeño escalable y alta disponibilidad.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "NoSQL hace referencia a Non-only SQL. Estas bases de datos se caracterizan por la facilidad de desarrollo, el desempeño escalable, la alta disponibilidad y la resiliencia... estas herramientas han debido renunciar en mayor o menor medida a las propiedades ACID...",
-                page: "Página 233",
-                section: "10.4. Big data y computación cognitiva"
-            },
-            {
-                id: 67,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "mc",
-                question: "¿Cuál de los siguientes NO constituye uno de los tres principios fundamentales en los que se compone conceptualmente un sistema cognitivo?",
-                options: [
-                    "Aprendizaje continuo",
-                    "Modelado del conocimiento",
-                    "Generación de hipótesis probabilísticas",
-                    "Compilación estricta de código binario nativo"
-                ],
-                answer: 3,
-                quote: "Un sistema cognitivo se compone fundamentalmente de tres principios fundamentales: Aprendizaje: el sistema debe ser capaz de aprender... Modelado: el aprendizaje toma como base... Generación de hipótesis: un sistema cognitivo debe asumir que no existe una única respuesta válida...",
-                page: "Página 226",
-                section: "10.2. Introducción a la computación cognitiva"
-            },
-            {
-                id: 68,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "mc",
-                question: "¿Qué representa el acrónimo ACID para referirse a las propiedades de transaccionalidad de las bases de datos relacionales?",
-                options: [
-                    "Algoritmia, Complejidad, Integridad, Desempeño",
-                    "Atomicidad, Consistencia, Aislamiento (Isolation) y Durabilidad",
-                    "Análisis, Control, Indexación, Dispersión",
-                    "Automatización, Cifrado, Interoperabilidad, Distribución"
-                ],
-                answer: 1,
-                quote: "ACID, como acabamos de ver, es el acrónimo para referirse a las propiedades de atomicidad, consistencia, aislamiento y durabilidad...",
-                page: "Página 233",
-                section: "10.4. Big data y computación cognitiva"
-            },
-            {
-                id: 69,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "mc",
-                question: "¿Qué tipo de proceso estocástico discreto se utiliza ampliamente en procesamiento de lenguaje natural y se caracteriza porque la probabilidad de que ocurra un evento depende solamente del evento inmediatamente anterior?",
-                options: [
-                    "Cadenas de Márkov",
-                    "Modelos de Descenso de Gradiente",
-                    "Criptografía Simétrica",
-                    "Embeddings Convolucionales"
-                ],
-                answer: 0,
-                quote: "Las cadenas de Márkov son ampliamente utilizadas para el análisis probabilístico de cadenas de texto. En la teoría de la probabilidad se conoce como cadena de Márkov... a un tipo especial de proceso estocástico discreto en el que la probabilidad de que ocurra un evento depende solamente del evento inmediatamente anterior.",
-                page: "Página 239",
-                section: "10.6. Procesamiento de lenguaje natural"
-            },
-            {
-                id: 70,
-                topic: "Tema 10",
-                topicNum: 10,
-                type: "mc",
-                question: "¿Qué herramienta preentrenada utiliza redes neuronales de reducción de dimensionalidad no supervisada para crear representaciones compactas de palabras basadas en su cercanía semántica (embeddings)?",
-                options: [
-                    "Protégé",
-                    "Word2Vec",
-                    "MarkovNLP Engine",
-                    "C4.5"
-                ],
-                answer: 1,
-                quote: "Estos algoritmos se conocen con el nombre de embeding y permiten comprimir una red de palabras representada como vectores... Una de las principales herramientas para conseguir esto es Word2vec. Word2Vec es una red preentrenada que agrupa palabras de forma compacta.",
-                page: "Páginas 240-241",
-                section: "10.6. Procesamiento de lenguaje natural"
-            },
+    // ----------------------------------------------------
+    // TEMA 10: Sistemas cognitivos (64-70)
+    // ----------------------------------------------------
+    {
+        id: 64,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "tf",
+        question: "Un sistema cognitivo está optimizado y específicamente orientado para funcionar en entornos estrictamente deterministas y sin ningún margen de incertidumbre.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "Los sistemas cognitivos están orientados a entornos probabilísticos, no determinísticos... En general, se puede decir que este tipo de sistemas está enfocado para contextos que deben trabajar en un entorno de incertidumbre...",
+        page: "Páginas 226-227",
+        section: "10.2. Introducción a la computación cognitiva"
+    },
+    {
+        id: 65,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "tf",
+        question: "La herramienta Protégé es una de las aplicaciones de software más útiles y extendidas para la creación y el diseño formal de ontologías.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "La herramienta Prótegé, gestionada ahora por la Universidad de Stanford en colaboración con la Universidad de Manchester, es una de las herramientas más útiles para la creación de ontologías.",
+        page: "Página 231",
+        section: "10.3. Elementos de un sistema cognitivo"
+    },
+    {
+        id: 66,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "tf",
+        question: "En las bases de datos NoSQL, se renuncia a ciertas propiedades ACID clásicas de los sistemas de bases de datos relacionales a cambio de un desempeño escalable y alta disponibilidad.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "NoSQL hace referencia a Non-only SQL. Estas bases de datos se caracterizan por la facilidad de desarrollo, el desempeño escalable, la alta disponibilidad y la resiliencia... estas herramientas han debido renunciar en mayor o menor medida a las propiedades ACID...",
+        page: "Página 233",
+        section: "10.4. Big data y computación cognitiva"
+    },
+    {
+        id: 67,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "mc",
+        question: "¿Cuál de los siguientes NO constituye uno de los tres principios fundamentales en los que se compone conceptualmente un sistema cognitivo?",
+        options: [
+            "Aprendizaje continuo",
+            "Modelado del conocimiento",
+            "Generación de hipótesis probabilísticas",
+            "Compilación estricta de código binario nativo"
+        ],
+        answer: 3,
+        quote: "Un sistema cognitivo se compone fundamentalmente de tres principios fundamentales: Aprendizaje: el sistema debe ser capaz de aprender... Modelado: el aprendizaje toma como base... Generación de hipótesis: un sistema cognitivo debe asumir que no existe una única respuesta válida...",
+        page: "Página 226",
+        section: "10.2. Introducción a la computación cognitiva"
+    },
+    {
+        id: 68,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "mc",
+        question: "¿Qué representa el acrónimo ACID para referirse a las propiedades de transaccionalidad de las bases de datos relacionales?",
+        options: [
+            "Algoritmia, Complejidad, Integridad, Desempeño",
+            "Atomicidad, Consistencia, Aislamiento (Isolation) y Durabilidad",
+            "Análisis, Control, Indexación, Dispersión",
+            "Automatización, Cifrado, Interoperabilidad, Distribución"
+        ],
+        answer: 1,
+        quote: "ACID, como acabamos de ver, es el acrónimo para referirse a las propiedades de atomicidad, consistencia, aislamiento y durabilidad...",
+        page: "Página 233",
+        section: "10.4. Big data y computación cognitiva"
+    },
+    {
+        id: 69,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "mc",
+        question: "¿Qué tipo de proceso estocástico discreto se utiliza ampliamente en procesamiento de lenguaje natural y se caracteriza porque la probabilidad de que ocurra un evento depende solamente del evento inmediatamente anterior?",
+        options: [
+            "Cadenas de Márkov",
+            "Modelos de Descenso de Gradiente",
+            "Criptografía Simétrica",
+            "Embeddings Convolucionales"
+        ],
+        answer: 0,
+        quote: "Las cadenas de Márkov son ampliamente utilizadas para el análisis probabilístico de cadenas de texto. En la teoría de la probabilidad se conoce como cadena de Márkov... a un tipo especial de proceso estocástico discreto en el que la probabilidad de que ocurra un evento depende solamente del evento inmediatamente anterior.",
+        page: "Página 239",
+        section: "10.6. Procesamiento de lenguaje natural"
+    },
+    {
+        id: 70,
+        topic: "Tema 10",
+        topicNum: 10,
+        type: "mc",
+        question: "¿Qué herramienta preentrenada utiliza redes neuronales de reducción de dimensionalidad no supervisada para crear representaciones compactas de palabras basadas en su cercanía semántica (embeddings)?",
+        options: [
+            "Protégé",
+            "Word2Vec",
+            "MarkovNLP Engine",
+            "C4.5"
+        ],
+        answer: 1,
+        quote: "Estos algoritmos se conocen con el nombre de embeding y permiten comprimir una red de palabras representada como vectores... Una de las principales herramientas para conseguir esto es Word2vec. Word2Vec es una red preentrenada que agrupa palabras de forma compacta.",
+        page: "Páginas 240-241",
+        section: "10.6. Procesamiento de lenguaje natural"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 11: Computación bioinspirada (71-77)
-            // ----------------------------------------------------
-            {
-                id: 71,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "tf",
-                question: "En las estrategias evolutivas para variables continuas, la mutación se aplica siguiendo una distribución normal de probabilidad, sirviendo de heurística de búsqueda principal frente al cruce.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "La mutación va a seguir una distribución normal de probabilidad. Esto hace que la heurística de búsqueda se establezca precisamente en el operador de mutación y no en el cruce como en los algoritmos genéticos.",
-                page: "Página 258",
-                section: "11.3. Algoritmos bioinspirados"
-            },
-            {
-                id: 72,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "tf",
-                question: "Los algoritmos de optimización de colonias de hormigas poseen una importante ventaja sobre los algoritmos genéticos clásicos en entornos con grafos de estructura dinámica que cambian en el tiempo.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Estos algoritmos tienen una ventaja sobre algoritmos genéticos cuando el grafo puede cambiar su estructura de manera dinámica. Los algoritmos de colonias de hormigas pueden seguir ejecutándose de forma permanente y adaptarse a la nueva estructura del grafo.",
-                page: "Páginas 272-273",
-                section: "11.4. Sistemas emergentes"
-            },
-            {
-                id: 73,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "tf",
-                question: "En la optimización de enjambres de partículas, las partículas ajustan su posición de forma estricta atendiendo únicamente al promedio de los peores mínimos locales de la generación previa.",
-                options: ["Verdadero", "Falso"],
-                answer: 1, // Falso
-                quote: "El movimiento de cada partícula depende de su mejor posición obtenida, así como de la mejor posición global hallada en todo el espacio de búsqueda. A medida que se descubren nuevas y mejores posiciones, estas pasan a orientar los movimientos de las partículas.",
-                page: "Página 273",
-                section: "11.4. Sistemas emergentes"
-            },
-            {
-                id: 74,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "mc",
-                question: "¿Cuál de los siguientes NO constituye uno de los operadores genéticos fundamentales aplicados para la transición y evolución de poblaciones en Algoritmos Genéticos?",
-                options: [
-                    "Selección",
-                    "Cruce (Crossover)",
-                    "Mutación",
-                    "Desnaturalización Criptográfica"
-                ],
-                answer: 3,
-                quote: "A cada uno de estos individuos se le aplica una serie de operadores genéticos que transforman una población en otra: Selección... Cruce... Mutación... Inversión.",
-                page: "Página 253",
-                section: "11.3. Algoritmos bioinspirados"
-            },
-            {
-                id: 75,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "mc",
-                question: "¿Qué regla heurística se utiliza en las Estrategias Evolutivas simples (modelo 1+1)-EE para actualizar dinámicamente la varianza de la mutación basándose en el ratio de reemplazos exitosos?",
-                options: [
-                    "Regla de la Entropía Máxima",
-                    "Regla de la Mitad (1/2)",
-                    "Regla de un Quinto (1/5)",
-                    "Regla del Descenso del Gradiente"
-                ],
-                answer: 2,
-                quote: "Para actualizar la varianza se usa la regla de 1/5. Dicha regla lleva una estadística del número de veces que la población ha cambiado y se ha encontrado una mejor solución... Si la ratio entre ellas varia de 1/5 se incrementa o se decrementa el valor de la varianza...",
-                page: "Páginas 259-260",
-                section: "11.3. Algoritmos bioinspirados"
-            },
-            {
-                id: 76,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "mc",
-                question: "¿Qué teoría médica y celular inspira directamente el funcionamiento de los Sistemas Inmunitarios Artificiales (AIS) para resolver problemas de optimización y clasificación de patrones?",
-                options: [
-                    "Teoría de la Selección Clonal",
-                    "Teoría de las Redes de Base Radial",
-                    "Teoría de la Adaptación Genómica",
-                    "Teoría de la Diferenciación Sináptica"
-                ],
-                answer: 0,
-                quote: "Los algoritmos de selección clonal son una clase de algoritmos inspirados en la teoría de selección clonal de la inmunidad adquirida, que explica cómo los linfocitos B y T mejoran su respuesta ante antígenos con el tiempo mediante la maduración de la afinidad.",
-                page: "Página 264",
-                section: "11.3. Algoritmos bioinspirados"
-            },
-            {
-                id: 77,
-                topic: "Tema 11",
-                topicNum: 11,
-                type: "mc",
-                question: "En la optimización multiobjetivo mediante el frente de Pareto, ¿cuándo se dice técnicamente que una solución 'A' domina a una solución 'B'?",
-                options: [
-                    "Cuando 'A' es peor que 'B' en todos los objetivos analizados.",
-                    "Cuando 'A' es mejor que 'B' en todos los objetivos, y estrictamente mejor en al menos uno de ellos.",
-                    "Cuando 'A' incrementa la varianza total del sistema por encima de 'B'.",
-                    "Cuando el coste de evaluación de 'A' supera el tiempo de ciclo de 'B'."
-                ],
-                answer: 1,
-                quote: "Se denomina dominancia de una solución sobre otra si cumple las siguientes condiciones: La primera solución es mejor que la segunda en todos los objetivos. La primera solución es estrictamente mejor que la segunda en al menos uno de los objetivos.",
-                page: "Página 267",
-                section: "11.3. Algoritmos bioinspirados"
-            },
+    // ----------------------------------------------------
+    // TEMA 11: Computación bioinspirada (71-77)
+    // ----------------------------------------------------
+    {
+        id: 71,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "tf",
+        question: "En las estrategias evolutivas para variables continuas, la mutación se aplica siguiendo una distribución normal de probabilidad, sirviendo de heurística de búsqueda principal frente al cruce.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "La mutación va a seguir una distribución normal de probabilidad. Esto hace que la heurística de búsqueda se establezca precisamente en el operador de mutación y no en el cruce como en los algoritmos genéticos.",
+        page: "Página 258",
+        section: "11.3. Algoritmos bioinspirados"
+    },
+    {
+        id: 72,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "tf",
+        question: "Los algoritmos de optimización de colonias de hormigas poseen una importante ventaja sobre los algoritmos genéticos clásicos en entornos con grafos de estructura dinámica que cambian en el tiempo.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Estos algoritmos tienen una ventaja sobre algoritmos genéticos cuando el grafo puede cambiar su estructura de manera dinámica. Los algoritmos de colonias de hormigas pueden seguir ejecutándose de forma permanente y adaptarse a la nueva estructura del grafo.",
+        page: "Páginas 272-273",
+        section: "11.4. Sistemas emergentes"
+    },
+    {
+        id: 73,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "tf",
+        question: "En la optimización de enjambres de partículas, las partículas ajustan su posición de forma estricta atendiendo únicamente al promedio de los peores mínimos locales de la generación previa.",
+        options: ["Verdadero", "Falso"],
+        answer: 1,
+        quote: "El movimiento de cada partícula depende de su mejor posición obtenida, así como de la mejor posición global hallada en todo el espacio de búsqueda. A medida que se descubren nuevas y mejores posiciones, estas pasan a orientar los movimientos de las partículas.",
+        page: "Página 273",
+        section: "11.4. Sistemas emergentes"
+    },
+    {
+        id: 74,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "mc",
+        question: "¿Cuál de los siguientes NO constituye uno de los operadores genéticos fundamentales aplicados para la transición y evolución de poblaciones en Algoritmos Genéticos?",
+        options: [
+            "Selección",
+            "Cruce (Crossover)",
+            "Mutación",
+            "Desnaturalización Criptográfica"
+        ],
+        answer: 3,
+        quote: "A cada uno de estos individuos se le aplica una serie de operadores genéticos que transforman una población en otra: Selección... Cruce... Mutación... Inversión.",
+        page: "Página 253",
+        section: "11.3. Algoritmos bioinspirados"
+    },
+    {
+        id: 75,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "mc",
+        question: "¿Qué regla heurística se utiliza en las Estrategias Evolutivas simples (modelo 1+1)-EE para actualizar dinámicamente la varianza de la mutación basándose en el ratio de reemplazos exitosos?",
+        options: [
+            "Regla de la Entropía Máxima",
+            "Regla de la Mitad (1/2)",
+            "Regla de un Quinto (1/5)",
+            "Regla del Descenso del Gradiente"
+        ],
+        answer: 2,
+        quote: "Para actualizar la varianza se usa la regla de 1/5. Dicha regla lleva una estadística del número de veces que la población ha cambiado y se ha encontrado una mejor solución... Si la ratio entre ellas varia de 1/5 se incrementa o se decrementa el valor de la varianza...",
+        page: "Páginas 259-260",
+        section: "11.3. Algoritmos bioinspirados"
+    },
+    {
+        id: 76,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "mc",
+        question: "¿Qué teoría médica y celular inspira directamente el funcionamiento de los Sistemas Inmunitarios Artificiales (AIS) para resolver problemas de optimización y clasificación de patrones?",
+        options: [
+            "Teoría de la Selección Clonal",
+            "Teoría de las Redes de Base Radial",
+            "Teoría de la Adaptación Genómica",
+            "Teoría de la Diferenciación Sináptica"
+        ],
+        answer: 0,
+        quote: "Los algoritmos de selección clonal son una clase de algoritmos inspirados en la teoría de selección clonal de la inmunidad adquirida, que explica cómo los linfocitos B y T mejoran su respuesta ante antígenos con el tiempo mediante la maduración de la afinidad.",
+        page: "Página 264",
+        section: "11.3. Algoritmos bioinspirados"
+    },
+    {
+        id: 77,
+        topic: "Tema 11",
+        topicNum: 11,
+        type: "mc",
+        question: "En la optimización multiobjetivo mediante el frente de Pareto, ¿cuándo se dice técnicamente que una solución 'A' domina a una solución 'B'?",
+        options: [
+            "Cuando 'A' es peor que 'B' en todos los objetivos analizados.",
+            "Cuando 'A' es mejor que 'B' en todos los objetivos, y estrictamente mejor en al menos uno de ellos.",
+            "Cuando 'A' incrementa la varianza total del sistema por encima de 'B'.",
+            "Cuando el coste de evaluación de 'A' supera el tiempo de ciclo de 'B'."
+        ],
+        answer: 1,
+        quote: "Se denomina dominancia de una solución sobre otra si cumple las siguientes condiciones: La primera solución es mejor que la segunda en todos los objetivos. La primera solución es estrictamente mejor que la segunda en al menos uno de los objetivos.",
+        page: "Página 267",
+        section: "11.3. Algoritmos bioinspirados"
+    },
 
-            // ----------------------------------------------------
-            // TEMA 12: Implicaciones éticas y legales (78-80)
-            // ----------------------------------------------------
-            {
-                id: 78,
-                topic: "Tema 12",
-                topicNum: 12,
-                type: "tf",
-                question: "El Reglamento General de Protección de Datos (RGPD) europeo pasó a ser de obligado cumplimiento para todas las organizaciones de la Unión Europea a partir del año 2018.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Aunque diseñada en el año 2016, el RGPD de la Unión Europea pasó a ser de obligado cumplimiento en el año 2018. La aplicación de esta normativa supone un gran reto...",
-                page: "Página 287",
-                section: "12.2. Contexto legal aplicable a proyectos de inteligencia artificial"
-            },
-            {
-                id: 79,
-                topic: "Tema 12",
-                topicNum: 12,
-                type: "tf",
-                question: "Un 'adversarial example' se define como un caso con pequeñas perturbaciones intencionales aplicadas sobre las características de entrada para provocar de forma forzada que un modelo de machine learning realice una predicción falsa.",
-                options: ["Verdadero", "Falso"],
-                answer: 0,
-                quote: "Podemos definir, por tanto, un adversarial example como un caso con pequeñas perturbaciones intencionales de características que hacen que un modelo de aprendizaje de una máquina haga una predicción falsa.",
-                page: "Página 296",
-                section: "12.4. Seguridad y tolerancia ante ataques"
-            },
-            {
-                id: 80,
-                topic: "Tema 12",
-                topicNum: 12,
-                type: "mc",
-                question: "¿Cuál de los siguientes es considerado un modelo de 'caja blanca' debido a su alto grado de explicabilidad y transparencia en la trazabilidad del proceso lógico de toma de decisiones?",
-                options: [
-                    "Redes de neuronas recurrentes profundas",
-                    "Sistemas basados en Árboles de Decisión Simples",
-                    "Random Forest",
-                    "Sistemas de razonamiento basados en casos con distancias multidimensionales complejas"
-                ],
-                answer: 1,
-                quote: "Los modelos de caja blanca, por el contrario, son más sencillos de explicar y, por tanto, de analizar. Los árboles de decisión simples son algoritmos que generan modelos de cajas blancas. También las redes bayesianas o cualquier sistema que utilice lógica de predicados...",
-                page: "Página 299",
-                section: "12.5. Explicabilidad de algoritmos"
-            }
-        ];
+    // ----------------------------------------------------
+    // TEMA 12: Implicaciones éticas y legales (78-80)
+    // ----------------------------------------------------
+    {
+        id: 78,
+        topic: "Tema 12",
+        topicNum: 12,
+        type: "tf",
+        question: "El Reglamento General de Protección de Datos (RGPD) europeo pasó a ser de obligado cumplimiento para todas las organizaciones de la Unión Europea a partir del año 2018.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Aunque diseñada en el año 2016, el RGPD de la Unión Europea pasó a ser de obligado cumplimiento en el año 2018. La aplicación de esta normativa supone un gran reto...",
+        page: "Página 287",
+        section: "12.2. Contexto legal aplicable a proyectos de inteligencia artificial"
+    },
+    {
+        id: 79,
+        topic: "Tema 12",
+        topicNum: 12,
+        type: "tf",
+        question: "Un 'adversarial example' se define como un caso con pequeñas perturbaciones intencionales aplicadas sobre las características de entrada para provocar de forma forzada que un modelo de machine learning realice una predicción falsa.",
+        options: ["Verdadero", "Falso"],
+        answer: 0,
+        quote: "Podemos definir, por tanto, un adversarial example como un caso con pequeñas perturbaciones intencionales de características que hacen que un modelo de aprendizaje de una máquina haga una predicción falsa.",
+        page: "Página 296",
+        section: "12.4. Seguridad y tolerancia ante ataques"
+    },
+    {
+        id: 80,
+        topic: "Tema 12",
+        topicNum: 12,
+        type: "mc",
+        question: "¿Cuál de los siguientes es considerado un modelo de 'caja blanca' debido a su alto grado de explicabilidad y transparencia en la trazabilidad del proceso lógico de toma de decisiones?",
+        options: [
+            "Redes de neuronas recurrentes profundas",
+            "Sistemas basados en Árboles de Decisión Simples",
+            "Random Forest",
+            "Sistemas de razonamiento basados en casos con distancias multidimensionales complejas"
+        ],
+        answer: 1,
+        quote: "Los modelos de caja blanca, por el contrario, son más sencillos de explicar y, por tanto, de analizar. Los árboles de decisión simples son algoritmos que generan modelos de cajas blancas. También las redes bayesianas o cualquier sistema que utilice lógica de predicados...",
+        page: "Página 299",
+        section: "12.5. Explicabilidad de algoritmos"
+    }
+];
 
         // variables de estado de la aplicación
         let quizQuestions = [];
